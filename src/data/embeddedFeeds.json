@@ -1,0 +1,2852 @@
+[
+  {
+    "id": 1,
+    "name": "Mısır (Bütün Tane)",
+    "category": "Kesif",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 2,
+    "name": "Mısır (Kırma)",
+    "category": "Kesif",
+    "crudeProtein": 8.6,
+    "metabolizableEnergy": 13.6,
+    "costPerKg": 8.75,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 3,
+    "name": "Mısır (Ezme)",
+    "category": "Kesif",
+    "crudeProtein": 8.6,
+    "metabolizableEnergy": 13.4,
+    "costPerKg": 8.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 4,
+    "name": "Mısır (Flake - Buharda Pişmiş)",
+    "category": "Kesif",
+    "crudeProtein": 8.8,
+    "metabolizableEnergy": 13.8,
+    "costPerKg": 9.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 5,
+    "name": "Mısır (Mikronize)",
+    "category": "Kesif",
+    "crudeProtein": 8.8,
+    "metabolizableEnergy": 14,
+    "costPerKg": 9.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 6,
+    "name": "Mısır (Un)",
+    "category": "Kesif",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 8.6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 7,
+    "name": "Mısır (Yüksek Nemli - %25)",
+    "category": "Kesif",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 8,
+    "name": "Mısır (Yüksek Nemli - %30)",
+    "category": "Kesif",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 9,
+    "name": "Mısır Kök ve Sapları (Kuru)",
+    "category": "Kaba",
+    "crudeProtein": 4.5,
+    "metabolizableEnergy": 6.5,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 10,
+    "name": "Mısır Sömek (Kırık)",
+    "category": "Kaba",
+    "crudeProtein": 3,
+    "metabolizableEnergy": 5.5,
+    "costPerKg": 2.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 11,
+    "name": "Mısır Kepeği",
+    "category": "Kesif",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 12,
+    "name": "Mısır Özü",
+    "category": "Kesif",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 10,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 13,
+    "name": "Mısır Gluten Yemi (%20)",
+    "category": "Kesif",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 11,
+    "costPerKg": 9.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 14,
+    "name": "Mısır Gluten Yemi (%24)",
+    "category": "Kesif",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 10.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 15,
+    "name": "Mısır Gluten Unu (%60)",
+    "category": "Kesif",
+    "crudeProtein": 60,
+    "metabolizableEnergy": 14.5,
+    "costPerKg": 18,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 16,
+    "name": "Mısır Yağı (Ham)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36,
+    "costPerKg": 35,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 17,
+    "name": "DDGS (Mısır - Düşük Yağ)",
+    "category": "Kesif",
+    "crudeProtein": 28,
+    "metabolizableEnergy": 12,
+    "costPerKg": 11,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 18,
+    "name": "DDGS (Mısır - Yüksek Yağ)",
+    "category": "Kesif",
+    "crudeProtein": 27,
+    "metabolizableEnergy": 13,
+    "costPerKg": 11.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 19,
+    "name": "Arpa (Bütün Tane)",
+    "category": "Kesif",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 7.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 20,
+    "name": "Arpa (Kırma)",
+    "category": "Kesif",
+    "crudeProtein": 11.2,
+    "metabolizableEnergy": 12.6,
+    "costPerKg": 8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 21,
+    "name": "Arpa (Ezme)",
+    "category": "Kesif",
+    "crudeProtein": 11.2,
+    "metabolizableEnergy": 12.4,
+    "costPerKg": 8.1,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 22,
+    "name": "Arpa (Flake)",
+    "category": "Kesif",
+    "crudeProtein": 11.4,
+    "metabolizableEnergy": 12.8,
+    "costPerKg": 8.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 23,
+    "name": "Arpa (Un)",
+    "category": "Kesif",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 7.9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 24,
+    "name": "Arpa Kepeği",
+    "category": "Kesif",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 25,
+    "name": "Malt Çimi",
+    "category": "Kesif",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 26,
+    "name": "Bira Posası (Yaş - %25 KM)",
+    "category": "Kesif",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 2.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 27,
+    "name": "Bira Posası (Kuru)",
+    "category": "Kesif",
+    "crudeProtein": 25,
+    "metabolizableEnergy": 11,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 28,
+    "name": "Buğday (Yemlik Bütün)",
+    "category": "Kesif",
+    "crudeProtein": 12.5,
+    "metabolizableEnergy": 13,
+    "costPerKg": 8.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 29,
+    "name": "Buğday (Kırık)",
+    "category": "Kesif",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 12.8,
+    "costPerKg": 8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 30,
+    "name": "Buğday (Ezme)",
+    "category": "Kesif",
+    "crudeProtein": 12.5,
+    "metabolizableEnergy": 12.9,
+    "costPerKg": 8.4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 31,
+    "name": "Buğday (Flake)",
+    "category": "Kesif",
+    "crudeProtein": 12.8,
+    "metabolizableEnergy": 13.2,
+    "costPerKg": 9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 32,
+    "name": "Buğday Kepeği (İnce)",
+    "category": "Kesif",
+    "crudeProtein": 15.5,
+    "metabolizableEnergy": 9.8,
+    "costPerKg": 6.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 33,
+    "name": "Buğday Kepeği (Kalın)",
+    "category": "Kesif",
+    "crudeProtein": 14.5,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 34,
+    "name": "Razmol",
+    "category": "Kesif",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 10.2,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 35,
+    "name": "Bonkalite",
+    "category": "Kesif",
+    "crudeProtein": 13,
+    "metabolizableEnergy": 11,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 36,
+    "name": "Buğday Ruşeymi",
+    "category": "Kesif",
+    "crudeProtein": 25,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 14,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 37,
+    "name": "DDGS (Buğday)",
+    "category": "Kesif",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 10.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 38,
+    "name": "Yulaf (Bütün Tane)",
+    "category": "Kesif",
+    "crudeProtein": 10.5,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 39,
+    "name": "Yulaf (Ezme)",
+    "category": "Kesif",
+    "crudeProtein": 10.8,
+    "metabolizableEnergy": 11.6,
+    "costPerKg": 7.7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 40,
+    "name": "Yulaf (Kabuksuz/İç)",
+    "category": "Kesif",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 12,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 41,
+    "name": "Yulaf Kepeği",
+    "category": "Kesif",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 10,
+    "costPerKg": 8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 42,
+    "name": "Yulaf Kabuğu",
+    "category": "Kaba",
+    "crudeProtein": 3.5,
+    "metabolizableEnergy": 5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 43,
+    "name": "Çavdar (Bütün Tane)",
+    "category": "Kesif",
+    "crudeProtein": 11.5,
+    "metabolizableEnergy": 12.8,
+    "costPerKg": 7.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 44,
+    "name": "Çavdar (Ezme)",
+    "category": "Kesif",
+    "crudeProtein": 11.5,
+    "metabolizableEnergy": 12.6,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 45,
+    "name": "Çavdar Kepeği",
+    "category": "Kesif",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 46,
+    "name": "Tritikale (Bütün Tane)",
+    "category": "Kesif",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 12.7,
+    "costPerKg": 7.6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 47,
+    "name": "Tritikale (Ezme)",
+    "category": "Kesif",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 7.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 48,
+    "name": "Sorgum (Bütün Tane)",
+    "category": "Kesif",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 13.2,
+    "costPerKg": 7.9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 49,
+    "name": "Sorgum (Kırma)",
+    "category": "Kesif",
+    "crudeProtein": 10.2,
+    "metabolizableEnergy": 13,
+    "costPerKg": 8.1,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 50,
+    "name": "Darı (Bütün)",
+    "category": "Kesif",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 12,
+    "costPerKg": 8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 51,
+    "name": "Çeltik (Kavuzlu)",
+    "category": "Kesif",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 52,
+    "name": "Pirinç Kırığı",
+    "category": "Kesif",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 53,
+    "name": "Pirinç Kepeği (Tam Yağlı)",
+    "category": "Kesif",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 54,
+    "name": "Pirinç Kepeği (Yağı Alınmış)",
+    "category": "Kesif",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 9,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 55,
+    "name": "Çeltik Kavuzu",
+    "category": "Kaba",
+    "crudeProtein": 3,
+    "metabolizableEnergy": 4,
+    "costPerKg": 1.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 56,
+    "name": "Soya Fasulyesi (Çiğ)",
+    "category": "Kesif",
+    "crudeProtein": 38,
+    "metabolizableEnergy": 14,
+    "costPerKg": 15,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 57,
+    "name": "Soya Fasulyesi (Kavrulmuş)",
+    "category": "Kesif",
+    "crudeProtein": 38,
+    "metabolizableEnergy": 14.5,
+    "costPerKg": 16.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 58,
+    "name": "Soya Fasulyesi (Tam Yağlı Ekstrüde)",
+    "category": "Kesif",
+    "crudeProtein": 37,
+    "metabolizableEnergy": 14.8,
+    "costPerKg": 17,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 59,
+    "name": "Soya Küspesi (%48 HP)",
+    "category": "Kesif",
+    "crudeProtein": 48,
+    "metabolizableEnergy": 12.8,
+    "costPerKg": 16.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 60,
+    "name": "Soya Küspesi (%44 HP)",
+    "category": "Kesif",
+    "crudeProtein": 44,
+    "metabolizableEnergy": 12.2,
+    "costPerKg": 15.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 61,
+    "name": "Soya Küspesi (%40 HP)",
+    "category": "Kesif",
+    "crudeProtein": 40,
+    "metabolizableEnergy": 11.8,
+    "costPerKg": 14.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 62,
+    "name": "Soya Kabuğu",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 63,
+    "name": "Soya Yağı (Ham)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36.5,
+    "costPerKg": 33,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 64,
+    "name": "Soya Yağı (Asit)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 35,
+    "costPerKg": 28,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 65,
+    "name": "Ayçiçeği Tohumu (Bütün)",
+    "category": "Kesif",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 15,
+    "costPerKg": 12,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 66,
+    "name": "Ayçiçeği Küspesi (%36 HP - Kabuksuz)",
+    "category": "Kesif",
+    "crudeProtein": 36,
+    "metabolizableEnergy": 9.8,
+    "costPerKg": 9.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 67,
+    "name": "Ayçiçeği Küspesi (%32 HP)",
+    "category": "Kesif",
+    "crudeProtein": 32,
+    "metabolizableEnergy": 9,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 68,
+    "name": "Ayçiçeği Küspesi (%28 HP - Yarı Kabuklu)",
+    "category": "Kesif",
+    "crudeProtein": 28,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 7.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 69,
+    "name": "Ayçiçeği Küspesi (%24 HP - Kabuklu)",
+    "category": "Kesif",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 7.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 70,
+    "name": "Ayçiçeği Kabuğu",
+    "category": "Kaba",
+    "crudeProtein": 5,
+    "metabolizableEnergy": 5,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 71,
+    "name": "Ayçiçek Yağı (Ham)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36.5,
+    "costPerKg": 34,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 72,
+    "name": "Ayçiçek Yağı (Asit)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 35,
+    "costPerKg": 29,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 73,
+    "name": "Pamuk Tohumu (Bütün/Çiğit)",
+    "category": "Kesif",
+    "crudeProtein": 23,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 10.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 74,
+    "name": "Pamuk Tohumu Küspesi (Bütün)",
+    "category": "Kesif",
+    "crudeProtein": 28,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 8.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 75,
+    "name": "Pamuk Tohumu Küspesi (Elek Altı - %32)",
+    "category": "Kesif",
+    "crudeProtein": 32,
+    "metabolizableEnergy": 11,
+    "costPerKg": 9.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 76,
+    "name": "Pamuk Tohumu Küspesi (Kabuksuz - %40)",
+    "category": "Kesif",
+    "crudeProtein": 40,
+    "metabolizableEnergy": 12,
+    "costPerKg": 11.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 77,
+    "name": "Pamuk Tohumu Kabuğu",
+    "category": "Kaba",
+    "crudeProtein": 4,
+    "metabolizableEnergy": 6,
+    "costPerKg": 3.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 78,
+    "name": "Pamuk Yağı",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36,
+    "costPerKg": 32,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 79,
+    "name": "Kanola Tohumu (Bütün)",
+    "category": "Kesif",
+    "crudeProtein": 22,
+    "metabolizableEnergy": 16,
+    "costPerKg": 14,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 80,
+    "name": "Kanola Küspesi (%35 HP)",
+    "category": "Kesif",
+    "crudeProtein": 35,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 10.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 81,
+    "name": "Kanola Küspesi (%38 HP)",
+    "category": "Kesif",
+    "crudeProtein": 38,
+    "metabolizableEnergy": 11.8,
+    "costPerKg": 10.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 82,
+    "name": "Kanola Yağı",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36.5,
+    "costPerKg": 35,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 83,
+    "name": "Yer Fıstığı Tohumu",
+    "category": "Kesif",
+    "crudeProtein": 26,
+    "metabolizableEnergy": 17,
+    "costPerKg": 20,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 84,
+    "name": "Yer Fıstığı Küspesi (%45 HP)",
+    "category": "Kesif",
+    "crudeProtein": 45,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 14,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 85,
+    "name": "Yer Fıstığı Küspesi (%50 HP)",
+    "category": "Kesif",
+    "crudeProtein": 50,
+    "metabolizableEnergy": 13,
+    "costPerKg": 15.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 86,
+    "name": "Yer Fıstığı Kabuğu",
+    "category": "Kaba",
+    "crudeProtein": 7,
+    "metabolizableEnergy": 5.5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 87,
+    "name": "Fındık Küspesi (%38 HP)",
+    "category": "Kesif",
+    "crudeProtein": 38,
+    "metabolizableEnergy": 11.8,
+    "costPerKg": 11,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 88,
+    "name": "Fındık Zarı",
+    "category": "Kesif",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 9,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 89,
+    "name": "Fındık Kabuğu (Kırık)",
+    "category": "Kaba",
+    "crudeProtein": 2,
+    "metabolizableEnergy": 4,
+    "costPerKg": 1.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 90,
+    "name": "Keten Tohumu",
+    "category": "Kesif",
+    "crudeProtein": 22,
+    "metabolizableEnergy": 15.5,
+    "costPerKg": 18,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 91,
+    "name": "Keten Tohumu Küspesi (%34 HP)",
+    "category": "Kesif",
+    "crudeProtein": 34,
+    "metabolizableEnergy": 12,
+    "costPerKg": 12.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 92,
+    "name": "Aspir Küspesi (Kabuksuz)",
+    "category": "Kesif",
+    "crudeProtein": 40,
+    "metabolizableEnergy": 11,
+    "costPerKg": 10,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 93,
+    "name": "Aspir Küspesi (Kabuklu)",
+    "category": "Kesif",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 7,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 94,
+    "name": "Ketencik (Camelina) Küspesi",
+    "category": "Kesif",
+    "crudeProtein": 35,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 11,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 95,
+    "name": "Susam Küspesi",
+    "category": "Kesif",
+    "crudeProtein": 42,
+    "metabolizableEnergy": 12,
+    "costPerKg": 13,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 96,
+    "name": "Haşhaş Küspesi",
+    "category": "Kesif",
+    "crudeProtein": 32,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 9.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 97,
+    "name": "Hindistan Cevizi Küspesi (Kopra)",
+    "category": "Kesif",
+    "crudeProtein": 21,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 10,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 98,
+    "name": "Palm Çekirdeği Küspesi (PKM)",
+    "category": "Kesif",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 11,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 99,
+    "name": "Palm Yağı",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36,
+    "costPerKg": 30,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 100,
+    "name": "Badem Kabuğu (Kırık)",
+    "category": "Kaba",
+    "crudeProtein": 4,
+    "metabolizableEnergy": 5,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 101,
+    "name": "Ceviz Kabuğu (Kırık)",
+    "category": "Kaba",
+    "crudeProtein": 3,
+    "metabolizableEnergy": 4.5,
+    "costPerKg": 1.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 102,
+    "name": "Yonca Hayı (Tomurcuk)",
+    "category": "Kaba",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 103,
+    "name": "Yonca Hayı (Erken Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 9,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 104,
+    "name": "Yonca Hayı (%10 Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 17,
+    "metabolizableEnergy": 8.9,
+    "costPerKg": 6.9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 105,
+    "name": "Yonca Hayı (Tam Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 6.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 106,
+    "name": "Yonca Hayı (Geç Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 8.2,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 107,
+    "name": "Yonca Hayı (Tohum Bağlama)",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 7.5,
+    "costPerKg": 5.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 108,
+    "name": "Yonca (1. Biçim Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 109,
+    "name": "Yonca (2. Biçim Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 16.5,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 6.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 110,
+    "name": "Yonca (3. Biçim Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 9,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 111,
+    "name": "Yonca (4. Biçim Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 19,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 7.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 112,
+    "name": "Yonca (5. Biçim Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 17.5,
+    "metabolizableEnergy": 9,
+    "costPerKg": 6.9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 113,
+    "name": "Yonca Peleti",
+    "category": "Kaba",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 114,
+    "name": "Yonca Unu",
+    "category": "Kaba",
+    "crudeProtein": 17,
+    "metabolizableEnergy": 8.9,
+    "costPerKg": 8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 115,
+    "name": "Yonca (Yaş - Vejetatif)",
+    "category": "Kaba",
+    "crudeProtein": 22,
+    "metabolizableEnergy": 10,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 116,
+    "name": "Yonca (Yaş - Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 117,
+    "name": "Fiğ Hayı (Çiçeklenme Öncesi)",
+    "category": "Kaba",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 6.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 118,
+    "name": "Fiğ Hayı (Tam Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 9,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 119,
+    "name": "Fiğ Hayı (Meyve Bağlama)",
+    "category": "Kaba",
+    "crudeProtein": 13,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 5.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 120,
+    "name": "Fiğ (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 2.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 121,
+    "name": "Korunga Hayı (Erken Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 122,
+    "name": "Korunga Hayı (Tam Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 6.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 123,
+    "name": "Korunga Hayı (Geç Çiçeklenme)",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 8,
+    "costPerKg": 5.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 124,
+    "name": "Korunga (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 9,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 125,
+    "name": "Ak Üçgül (Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 126,
+    "name": "Ak Üçgül (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 10,
+    "costPerKg": 2.4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 127,
+    "name": "Çayır Üçgülü (Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 9,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 128,
+    "name": "Çayır Üçgülü (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 2.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 129,
+    "name": "İngiliz Çimi (Ryegrass - Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 130,
+    "name": "İngiliz Çimi (Ryegrass - Kuru)",
+    "category": "Kaba",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 131,
+    "name": "Domuz Ayrığı (Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 5.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 132,
+    "name": "Kelp Kuyruğu (Timothy - Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 133,
+    "name": "Çayır Yumağı (Fescue - Kuru Ot)",
+    "category": "Kaba",
+    "crudeProtein": 11.5,
+    "metabolizableEnergy": 8.6,
+    "costPerKg": 5.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 134,
+    "name": "Karışık Çayır Otu (1. Kalite)",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 135,
+    "name": "Karışık Çayır Otu (2. Kalite)",
+    "category": "Kaba",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 8,
+    "costPerKg": 5.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 136,
+    "name": "Karışık Çayır Otu (3. Kalite)",
+    "category": "Kaba",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 7.5,
+    "costPerKg": 4.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 137,
+    "name": "Bermuda Otu (Kuru)",
+    "category": "Kaba",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 5.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 138,
+    "name": "Mera Otu (İlkbahar - Genç)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 1.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 139,
+    "name": "Mera Otu (Yaz - Olgun)",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 1.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 140,
+    "name": "Mera Otu (Sonbahar)",
+    "category": "Kaba",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 1.4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 141,
+    "name": "Buğday Samanı (Bütün)",
+    "category": "Kaba",
+    "crudeProtein": 3,
+    "metabolizableEnergy": 5.2,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 142,
+    "name": "Buğday Samanı (İnce Doğranmış)",
+    "category": "Kaba",
+    "crudeProtein": 3,
+    "metabolizableEnergy": 5.2,
+    "costPerKg": 3.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 143,
+    "name": "Buğday Samanı (Üreli)",
+    "category": "Kaba",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 5.5,
+    "costPerKg": 3.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 144,
+    "name": "Buğday Samanı (Amonyaklı)",
+    "category": "Kaba",
+    "crudeProtein": 9,
+    "metabolizableEnergy": 6,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 145,
+    "name": "Arpa Samanı",
+    "category": "Kaba",
+    "crudeProtein": 3.5,
+    "metabolizableEnergy": 5.5,
+    "costPerKg": 3.4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 146,
+    "name": "Yulaf Samanı",
+    "category": "Kaba",
+    "crudeProtein": 4,
+    "metabolizableEnergy": 5.8,
+    "costPerKg": 3.6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 147,
+    "name": "Çavdar Samanı",
+    "category": "Kaba",
+    "crudeProtein": 3,
+    "metabolizableEnergy": 5,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 148,
+    "name": "Tritikale Samanı",
+    "category": "Kaba",
+    "crudeProtein": 3.5,
+    "metabolizableEnergy": 5.4,
+    "costPerKg": 3.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 149,
+    "name": "Mercimek Samanı (İnce)",
+    "category": "Kaba",
+    "crudeProtein": 6.5,
+    "metabolizableEnergy": 6.5,
+    "costPerKg": 4.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 150,
+    "name": "Mercimek Samanı (Kalın)",
+    "category": "Kaba",
+    "crudeProtein": 5.5,
+    "metabolizableEnergy": 6,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 151,
+    "name": "Nohut Samanı",
+    "category": "Kaba",
+    "crudeProtein": 5,
+    "metabolizableEnergy": 5.8,
+    "costPerKg": 3.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 152,
+    "name": "Fasulye Samanı",
+    "category": "Kaba",
+    "crudeProtein": 6,
+    "metabolizableEnergy": 6.2,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 153,
+    "name": "Bakla Samanı",
+    "category": "Kaba",
+    "crudeProtein": 5.5,
+    "metabolizableEnergy": 6,
+    "costPerKg": 3.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 154,
+    "name": "Bezelye Samanı",
+    "category": "Kaba",
+    "crudeProtein": 6.5,
+    "metabolizableEnergy": 6.5,
+    "costPerKg": 4.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 155,
+    "name": "Soya Samanı",
+    "category": "Kaba",
+    "crudeProtein": 5,
+    "metabolizableEnergy": 6,
+    "costPerKg": 3.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 156,
+    "name": "Yer Fıstığı Samanı",
+    "category": "Kaba",
+    "crudeProtein": 7,
+    "metabolizableEnergy": 6.5,
+    "costPerKg": 4.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 157,
+    "name": "Ayçiçeği Sapı",
+    "category": "Kaba",
+    "crudeProtein": 3.5,
+    "metabolizableEnergy": 5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 158,
+    "name": "Pamuk Sapı",
+    "category": "Kaba",
+    "crudeProtein": 4,
+    "metabolizableEnergy": 5.2,
+    "costPerKg": 2.6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 159,
+    "name": "Susam Sapı",
+    "category": "Kaba",
+    "crudeProtein": 4,
+    "metabolizableEnergy": 5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 160,
+    "name": "Mısır Silajı (%25 KM)",
+    "category": "Kaba",
+    "crudeProtein": 8.2,
+    "metabolizableEnergy": 10.2,
+    "costPerKg": 2.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 161,
+    "name": "Mısır Silajı (%30 KM)",
+    "category": "Kaba",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 162,
+    "name": "Mısır Silajı (%35 KM)",
+    "category": "Kaba",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 10.8,
+    "costPerKg": 2.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 163,
+    "name": "Mısır Silajı (%40 KM)",
+    "category": "Kaba",
+    "crudeProtein": 8.2,
+    "metabolizableEnergy": 11,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 164,
+    "name": "Mısır Silajı (Koçansız - Alt Yaprak)",
+    "category": "Kaba",
+    "crudeProtein": 7,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 165,
+    "name": "Yonca Silajı (%35 KM)",
+    "category": "Kaba",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 9,
+    "costPerKg": 3.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 166,
+    "name": "Yonca Silajı (%40 KM)",
+    "category": "Kaba",
+    "crudeProtein": 17.5,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 3.6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 167,
+    "name": "Yonca Silajı (%50 KM - Haylage)",
+    "category": "Kaba",
+    "crudeProtein": 17,
+    "metabolizableEnergy": 9.4,
+    "costPerKg": 3.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 168,
+    "name": "Arpa Hasıl Silajı",
+    "category": "Kaba",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 169,
+    "name": "Buğday Hasıl Silajı",
+    "category": "Kaba",
+    "crudeProtein": 10.5,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 2.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 170,
+    "name": "Yulaf Hasıl Silajı",
+    "category": "Kaba",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 9.4,
+    "costPerKg": 2.9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 171,
+    "name": "Tritikale Hasıl Silajı",
+    "category": "Kaba",
+    "crudeProtein": 11.5,
+    "metabolizableEnergy": 9.6,
+    "costPerKg": 3.1,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 172,
+    "name": "Ryegrass Silajı",
+    "category": "Kaba",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 10,
+    "costPerKg": 3.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 173,
+    "name": "Çayır Otu Silajı (%30 KM)",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 2.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 174,
+    "name": "Sorgum Silajı",
+    "category": "Kaba",
+    "crudeProtein": 7.5,
+    "metabolizableEnergy": 9,
+    "costPerKg": 2.3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 175,
+    "name": "Sudan Otu Silajı",
+    "category": "Kaba",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 8.8,
+    "costPerKg": 2.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 176,
+    "name": "Tatlı Darı Silajı",
+    "category": "Kaba",
+    "crudeProtein": 7,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 2.4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 177,
+    "name": "Ayçiçeği Silajı",
+    "category": "Kaba",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 178,
+    "name": "Fiğ Silajı",
+    "category": "Kaba",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 9,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 179,
+    "name": "Bezelye Silajı",
+    "category": "Kaba",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 3.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 180,
+    "name": "Bakla Silajı",
+    "category": "Kaba",
+    "crudeProtein": 13,
+    "metabolizableEnergy": 9.2,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 181,
+    "name": "Pancar Yaprağı Silajı",
+    "category": "Kaba",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 8.5,
+    "costPerKg": 1.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 182,
+    "name": "Şeker Pancarı (Bütün/Taze)",
+    "category": "Kaba",
+    "crudeProtein": 6,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 183,
+    "name": "Pancar Posası (Yaş - %15 KM)",
+    "category": "Kaba",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 11.2,
+    "costPerKg": 1.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 184,
+    "name": "Pancar Posası (Preslenmiş - %22 KM)",
+    "category": "Kaba",
+    "crudeProtein": 8.5,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 1.6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 185,
+    "name": "Pancar Posası (Kuru)",
+    "category": "Kesif",
+    "crudeProtein": 9,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 7.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 186,
+    "name": "Pancar Posası (Melaslı Kuru)",
+    "category": "Kesif",
+    "crudeProtein": 9.5,
+    "metabolizableEnergy": 11,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 187,
+    "name": "Pancar Posası (Peletlenmiş)",
+    "category": "Kesif",
+    "crudeProtein": 9,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 7.4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 188,
+    "name": "Melas (Pancar)",
+    "category": "Kesif",
+    "crudeProtein": 4,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 189,
+    "name": "Melas (Kamış)",
+    "category": "Kesif",
+    "crudeProtein": 3.5,
+    "metabolizableEnergy": 12,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 190,
+    "name": "Narenciye Posası (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 6.5,
+    "metabolizableEnergy": 11,
+    "costPerKg": 1.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 191,
+    "name": "Narenciye Posası (Kuru)",
+    "category": "Kesif",
+    "crudeProtein": 7,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 192,
+    "name": "Elma Posası (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 5,
+    "metabolizableEnergy": 9,
+    "costPerKg": 1.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 193,
+    "name": "Elma Posası (Kuru)",
+    "category": "Kaba",
+    "crudeProtein": 6,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 194,
+    "name": "Domates Posası (Yaş)",
+    "category": "Kaba",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 1.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 195,
+    "name": "Domates Posası (Kuru)",
+    "category": "Kesif",
+    "crudeProtein": 22,
+    "metabolizableEnergy": 10,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 196,
+    "name": "Üzüm Cibresi (Kuru)",
+    "category": "Kaba",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 6.5,
+    "costPerKg": 3.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 197,
+    "name": "Zeytin Küspesi (Prina - Yağlı)",
+    "category": "Kaba",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 7.5,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 198,
+    "name": "Zeytin Küspesi (Prina - Yağı Alınmış)",
+    "category": "Kaba",
+    "crudeProtein": 9,
+    "metabolizableEnergy": 5.5,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 199,
+    "name": "Keçiboynuzu (Kırık)",
+    "category": "Kesif",
+    "crudeProtein": 5,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 200,
+    "name": "Ekmek Kırığı / Unlu Mamul Artığı",
+    "category": "Kesif",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 14,
+    "costPerKg": 7,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 201,
+    "name": "Bisküvi/Gofret Artığı",
+    "category": "Kesif",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 15.5,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 202,
+    "name": "Makarna Kırığı",
+    "category": "Kesif",
+    "crudeProtein": 13,
+    "metabolizableEnergy": 14.5,
+    "costPerKg": 7.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 203,
+    "name": "Çikolata Artığı",
+    "category": "Kesif",
+    "crudeProtein": 6,
+    "metabolizableEnergy": 16,
+    "costPerKg": 9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 204,
+    "name": "Şekerleme Artığı",
+    "category": "Kesif",
+    "crudeProtein": 2,
+    "metabolizableEnergy": 15,
+    "costPerKg": 6.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 205,
+    "name": "Patates (Taze)",
+    "category": "Kaba",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 13,
+    "costPerKg": 2.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 206,
+    "name": "Patates Püresi/Cips Artığı",
+    "category": "Kesif",
+    "crudeProtein": 8,
+    "metabolizableEnergy": 14.5,
+    "costPerKg": 6,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 207,
+    "name": "Bira Mayası (Yaş)",
+    "category": "Kesif",
+    "crudeProtein": 45,
+    "metabolizableEnergy": 13,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 208,
+    "name": "Bira Mayası (Kuru)",
+    "category": "Kesif",
+    "crudeProtein": 46,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 15,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 209,
+    "name": "Et-Kemik Unu (%50 HP)",
+    "category": "Kesif",
+    "crudeProtein": 50,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 18,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 210,
+    "name": "Et Unu (%60 HP)",
+    "category": "Kesif",
+    "crudeProtein": 60,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 22,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 211,
+    "name": "Kan Unu",
+    "category": "Kesif",
+    "crudeProtein": 85,
+    "metabolizableEnergy": 13,
+    "costPerKg": 30,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 212,
+    "name": "Tüy Unu (Hidrolize)",
+    "category": "Kesif",
+    "crudeProtein": 80,
+    "metabolizableEnergy": 11,
+    "costPerKg": 15,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 213,
+    "name": "Balık Unu (%60 HP)",
+    "category": "Kesif",
+    "crudeProtein": 60,
+    "metabolizableEnergy": 14.5,
+    "costPerKg": 45,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 214,
+    "name": "Balık Unu (%65 HP)",
+    "category": "Kesif",
+    "crudeProtein": 65,
+    "metabolizableEnergy": 15,
+    "costPerKg": 50,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 215,
+    "name": "Kümes Hayvanları Yan Ürünleri Unu",
+    "category": "Kesif",
+    "crudeProtein": 60,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 20,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 216,
+    "name": "Peynir Altı Suyu Tozu (Tatlı)",
+    "category": "Kesif",
+    "crudeProtein": 13,
+    "metabolizableEnergy": 14.5,
+    "costPerKg": 25,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 217,
+    "name": "Peynir Altı Suyu Tozu (Ekşi)",
+    "category": "Kesif",
+    "crudeProtein": 11,
+    "metabolizableEnergy": 13.5,
+    "costPerKg": 22,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 218,
+    "name": "Balık Yağı",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 37,
+    "costPerKg": 60,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 219,
+    "name": "Don Yağı (Sığır)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 36.5,
+    "costPerKg": 28,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 220,
+    "name": "Kümes Hayvanları Yağı",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 37,
+    "costPerKg": 30,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 221,
+    "name": "Bypass Yağ (Kalsiyum Sabunu)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 33,
+    "costPerKg": 45,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 222,
+    "name": "Bypass Yağ (Fraksiyone/Hidrojene)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 38,
+    "costPerKg": 55,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 223,
+    "name": "Mermer Tozu (Kalsiyum Karbonat)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 2.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 224,
+    "name": "Kireç Taşı",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 225,
+    "name": "Dikalsiyum Fosfat (DCP)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 22,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 226,
+    "name": "Monokalsiyum Fosfat (MCP)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 25,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 227,
+    "name": "Deflorinize Fosfat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 20,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 228,
+    "name": "Yemlik İnce Tuz (Sodyum Klorür)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 3.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 229,
+    "name": "Kaya Tuzu (Kırık)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 3,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 230,
+    "name": "Sodyum Bikarbonat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 12.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 231,
+    "name": "Magnezyum Oksit",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 18,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 232,
+    "name": "Magnezyum Sülfat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 15,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 233,
+    "name": "Potasyum Klorür",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 16,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 234,
+    "name": "Kalsiyum Sülfat (Alçıtaşı)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 235,
+    "name": "Kükürt (Çiçek Tozu)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 10,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 236,
+    "name": "Çinko Oksit",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 60,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 237,
+    "name": "Çinko Sülfat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 55,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 238,
+    "name": "Bakır Sülfat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 80,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 239,
+    "name": "Mangan Sülfat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 45,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 240,
+    "name": "Kobalt Sülfat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 150,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 241,
+    "name": "Sodyum Selenit",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 200,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 242,
+    "name": "Kalsiyum İyodat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 180,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 243,
+    "name": "Üre (%46 N - NPN)",
+    "category": "Katkı",
+    "crudeProtein": 287,
+    "metabolizableEnergy": 0,
+    "costPerKg": 14,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 244,
+    "name": "Amonyum Sülfat",
+    "category": "Katkı",
+    "crudeProtein": 133,
+    "metabolizableEnergy": 0,
+    "costPerKg": 12,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 245,
+    "name": "Biüret",
+    "category": "Katkı",
+    "crudeProtein": 250,
+    "metabolizableEnergy": 0,
+    "costPerKg": 20,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 246,
+    "name": "Klinoptilolit (Toksin Bağlayıcı)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 4.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 247,
+    "name": "Zeolit",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 4,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 248,
+    "name": "Bentonit",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 3.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 249,
+    "name": "Canlı Maya (Saccharomyces cerevisiae)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 120,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 250,
+    "name": "Maya Kültürü (İnaktif)",
+    "category": "Katkı",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 0,
+    "costPerKg": 80,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 251,
+    "name": "Propilen Glikol (Enerji Kaynağı)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 23,
+    "costPerKg": 65,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 252,
+    "name": "Gliserol / Gliserin",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 18,
+    "costPerKg": 40,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 253,
+    "name": "Sodyum Propiyonat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 70,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 254,
+    "name": "Kalsiyum Propiyonat",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 65,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 255,
+    "name": "Bypass Protein (Korunmuş Soya)",
+    "category": "Kesif",
+    "crudeProtein": 48,
+    "metabolizableEnergy": 12.8,
+    "costPerKg": 25,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 256,
+    "name": "Metiyonin (Rumen Korumalı)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 150,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 257,
+    "name": "Lizin (Rumen Korumalı)",
+    "category": "Katkı",
+    "crudeProtein": 0,
+    "metabolizableEnergy": 0,
+    "costPerKg": 140,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 258,
+    "name": "Süt Yemi (18 HP - Standart)",
+    "category": "Karma",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 10.8,
+    "costPerKg": 9.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 259,
+    "name": "Süt Yemi (19 HP - Yüksek Verim)",
+    "category": "Karma",
+    "crudeProtein": 19,
+    "metabolizableEnergy": 11.2,
+    "costPerKg": 10,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 260,
+    "name": "Süt Yemi (21 HP - Zirve)",
+    "category": "Karma",
+    "crudeProtein": 21,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 10.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 261,
+    "name": "Kuru Dönem Yemi (Erken)",
+    "category": "Karma",
+    "crudeProtein": 13,
+    "metabolizableEnergy": 9.5,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 262,
+    "name": "Geçiş Dönemi Yemi (Close-up)",
+    "category": "Karma",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 10.5,
+    "costPerKg": 9.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 263,
+    "name": "Düve Yemi",
+    "category": "Karma",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 10,
+    "costPerKg": 8.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 264,
+    "name": "Buzağı Başlangıç Yemi",
+    "category": "Karma",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 11.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 265,
+    "name": "Buzağı Büyütme Yemi",
+    "category": "Karma",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 11,
+    "costPerKg": 10.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 266,
+    "name": "Besi Başlangıç Yemi",
+    "category": "Karma",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 11,
+    "costPerKg": 9,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 267,
+    "name": "Besi Geliştirme Yemi",
+    "category": "Karma",
+    "crudeProtein": 14,
+    "metabolizableEnergy": 11.2,
+    "costPerKg": 8.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 268,
+    "name": "Besi Bitirme Yemi",
+    "category": "Karma",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 8.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 269,
+    "name": "Toklu Besi Yemi",
+    "category": "Karma",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 11,
+    "costPerKg": 9.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 270,
+    "name": "Kuzu Başlangıç Yemi",
+    "category": "Karma",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 11,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 271,
+    "name": "Kuzu Büyütme Yemi",
+    "category": "Karma",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 11,
+    "costPerKg": 10,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 272,
+    "name": "Etlik Civciv Başlangıç Yemi",
+    "category": "Karma",
+    "crudeProtein": 23,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 13.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 273,
+    "name": "Etlik Piliç Büyütme Yemi",
+    "category": "Karma",
+    "crudeProtein": 21,
+    "metabolizableEnergy": 13,
+    "costPerKg": 13,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 274,
+    "name": "Etlik Piliç Bitirme Yemi",
+    "category": "Karma",
+    "crudeProtein": 19,
+    "metabolizableEnergy": 13.2,
+    "costPerKg": 12.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 275,
+    "name": "Yumurtacı Civciv Yemi",
+    "category": "Karma",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 11.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 276,
+    "name": "Yumurtacı Piliç Yemi",
+    "category": "Karma",
+    "crudeProtein": 15,
+    "metabolizableEnergy": 11,
+    "costPerKg": 10.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 277,
+    "name": "Yumurta Yemi (1. Dönem Zirve)",
+    "category": "Karma",
+    "crudeProtein": 18,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 11.2,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 278,
+    "name": "Yumurta Yemi (2. Dönem)",
+    "category": "Karma",
+    "crudeProtein": 16,
+    "metabolizableEnergy": 11.2,
+    "costPerKg": 10.8,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 279,
+    "name": "Hindi Palazı Yemi",
+    "category": "Karma",
+    "crudeProtein": 28,
+    "metabolizableEnergy": 12,
+    "costPerKg": 16,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 280,
+    "name": "Hindi Büyütme Yemi",
+    "category": "Karma",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 14.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 281,
+    "name": "Hindi Bitirme Yemi",
+    "category": "Karma",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 13,
+    "costPerKg": 13.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 282,
+    "name": "Bıldırcın Başlangıç Yemi",
+    "category": "Karma",
+    "crudeProtein": 24,
+    "metabolizableEnergy": 12,
+    "costPerKg": 15,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 283,
+    "name": "Bıldırcın Yumurta Yemi",
+    "category": "Karma",
+    "crudeProtein": 20,
+    "metabolizableEnergy": 11.5,
+    "costPerKg": 13.5,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 284,
+    "name": "At Yemi (Performans)",
+    "category": "Karma",
+    "crudeProtein": 12,
+    "metabolizableEnergy": 12.5,
+    "costPerKg": 14,
+    "dryMatter": 88,
+    "unit": "% DM"
+  },
+  {
+    "id": 285,
+    "name": "At Yemi (Bakım)",
+    "category": "Karma",
+    "crudeProtein": 10,
+    "metabolizableEnergy": 11,
+    "costPerKg": 11,
+    "dryMatter": 88,
+    "unit": "% DM"
+  }
+]
