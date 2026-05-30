@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #ecfdf5;
+  --color-primary-100: #d1fae5;
+  --color-primary-200: #a7f3d0;
+  --color-primary-300: #6ee7b7;
+  --color-primary-400: #34d399;
+  --color-primary-500: #10b981;
+  --color-primary-600: #059669;
+  --color-primary-700: #047857;
+  --color-primary-800: #065f46;
+  --color-primary-900: #064e3b;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: rgb(241 245 249);
+    color: rgb(30 41 59);
+  }
+}
+
+@layer components {
+  .glass-card {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  }
+
+  .btn-primary {
+    background: linear-gradient(to right, #059669, #047857);
+    color: white;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    box-shadow: 0 10px 15px -3px rgb(16 185 129 / 0.3);
+    transition: all 0.3s;
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 10px 15px -3px rgb(16 185 129 / 0.5);
+  }
+
+  .btn-secondary {
+    background-color: #e2e8f0;
+    color: #334155;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    color: #d1d5db;
+    transition: all 0.2s;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgba(5 150 105 / 0.2);
+    color: #6ee7b7;
+  }
+
+  .sidebar-link-active {
+    background-color: rgba(5 150 105 / 0.3);
+    color: #6ee7b7;
+    border-left: 4px solid #6ee7b7;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #94a3b8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #64748b;
+}
+
+/* Drop zone animation */
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: #10b981;
+  }
+  50% {
+    border-color: #059669;
+  }
+}
+
+.drop-zone-active {
+  animation: pulse-border 1s ease-in-out infinite;
+}
