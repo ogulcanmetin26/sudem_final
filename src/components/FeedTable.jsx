@@ -52,24 +52,14 @@ const FeedTable = ({
         return;
       }
 
-      // Map Excel columns to feed properties
-      // Expected columns from yem_veritabani.xlsx: Yem Adı, Tip, Ham Protein (%), ME (MJ/kg), Fiyat (TL)
       const mappedFeeds = jsonData.map((row, index) => {
-        const name = row['Yem Adı'] || row['Yem adı'] || row['feed_name'] || `Yem ${index + 1}`;
-        const category = row['Tip'] || row['tip'] || row['Tipi'] || 'Diğer';
-        const crudeProtein = parseFloat(row['Ham Protein (%)'] || row['Ham protein (%)'] || row['HP'] || 0);
-        const metabolizableEnergy = parseFloat(row['ME (MJ/kg)'] || row['ME'] || row['Enerji'] || 0);
-        const costPerKg = parseFloat(row['Fiyat (TL)'] || row['Fiyat'] || row['Maliyet'] || 0);
-
         return {
           id: Date.now() + index,
-          name: String(name),
-          category: String(category),
-          dryMatter: 88,
-          metabolizableEnergy: isNaN(metabolizableEnergy) ? 0 : metabolizableEnergy,
-          crudeProtein: isNaN(crudeProtein) ? 0 : crudeProtein,
-          costPerKg: isNaN(costPerKg) ? 0 : costPerKg,
-          unit: '% DM'
+          name: row['Yem Adı'] || '',
+          category: row['Tip'] || 'Diğer',
+          crudeProtein: parseFloat(row['Ham Protein (%)']) || 0,
+          metabolizableEnergy: parseFloat(row['ME (MJ/kg)']) || 0,
+          costPerKg: parseFloat(row['Fiyat (TL)']) || 0
         };
       }).filter(feed => feed.name && feed.metabolizableEnergy > 0);
 
@@ -143,12 +133,10 @@ const FeedTable = ({
     const newFeed = {
       id: Date.now(),
       name: 'Yeni Yem Maddesi',
-      category: 'Kesif Yem',
-      dryMatter: 88,
-      metabolizableEnergy: 2.5,
+      category: 'Kesif',
+      metabolizableEnergy: 10,
       crudeProtein: 15,
-      costPerKg: 0,
-      unit: '% DM'
+      costPerKg: 10
     };
     onFeedsChange([...feeds, newFeed]);
     handleEdit(newFeed);
@@ -166,7 +154,7 @@ const FeedTable = ({
             Yem Maddeleri Kütüphanesi
           </h3>
           <p className="text-slate-500 text-sm mt-1">
-            {feeds.length} yem maddesi kayıtlı • Excel sütunları: Yem adı, Yem tipi, Ham protein, Metabolik enerji, Kg basına maliyet
+            {feeds.length} yem maddesi • Excel: Yem Adı, Tip, Ham Protein (%), ME (MJ/kg), Fiyat (TL)
           </p>
         </div>
         <button 
@@ -234,22 +222,18 @@ const FeedTable = ({
         <table className="w-full">
           <thead>
             <tr className="border-b border-slate-200">
-              <th className="text-left py-3 px-4 text-slate-600 font-semibold text-sm">
-                <button className="flex items-center gap-1 hover:text-emerald-600">
-                  Yem Maddesi <ArrowUpDown size={14} />
-                </button>
-              </th>
-              <th className="text-left py-3 px-4 text-slate-600 font-semibold text-sm">Kategori</th>
-              <th className="text-right py-3 px-4 text-slate-600 font-semibold text-sm">Kuru Madde (%)</th>
-              <th className="text-right py-3 px-4 text-slate-600 font-semibold text-sm">ME (MJ/kg)</th>
+              <th className="text-left py-3 px-4 text-slate-600 font-semibold text-sm">Yem Adı</th>
+              <th className="text-left py-3 px-4 text-slate-600 font-semibold text-sm">Tip</th>
               <th className="text-right py-3 px-4 text-slate-600 font-semibold text-sm">Ham Protein (%)</th>
+              <th className="text-right py-3 px-4 text-slate-600 font-semibold text-sm">ME (MJ/kg)</th>
+              <th className="text-right py-3 px-4 text-slate-600 font-semibold text-sm">Maliyet (TL/kg)</th>
               <th className="text-right py-3 px-4 text-slate-600 font-semibold text-sm">İşlemler</th>
             </tr>
           </thead>
           <tbody>
             {filteredFeeds.length === 0 ? (
               <tr>
-                <td colSpan="6" className="py-8 text-center text-slate-500">
+                <td colSpan="5" className="py-8 text-center text-slate-500">
                   <div className="flex flex-col items-center">
                     <span className="text-4xl mb-2">🌾</span>
                     <p>Arama kriterlerine uygun yem maddesi bulunamadı.</p>
@@ -278,10 +262,10 @@ const FeedTable = ({
                           onChange={(e) => setEditData({ ...editData, category: e.target.value })}
                           className="input-field text-sm py-1"
                         >
-                          <option value="Kaba Yem">Kaba Yem</option>
-                          <option value="Kesif Yem">Kesif Yem</option>
-                          <option value="Yağlı Yem">Yağlı Yem</option>
-                          <option value="Hayvansal Yem">Hayvansal Yem</option>
+                          <option value="Kesif">Kesif</option>
+                          <option value="Kaba">Kaba</option>
+                          <option value="Katkı">Katkı</option>
+                          <option value="Karma">Karma</option>
                           <option value="Diğer">Diğer</option>
                         </select>
                       </td>
@@ -336,10 +320,10 @@ const FeedTable = ({
                       <td className="py-3 px-4 font-medium text-slate-800">{feed.name}</td>
                       <td className="py-3 px-4">
                         <span className={`px-2 py-1 rounded-full text-xs font-medium
-                          ${feed.category === 'Kaba Yem' ? 'bg-amber-100 text-amber-700' :
-                            feed.category === 'Kesif Yem' ? 'bg-blue-100 text-blue-700' :
-                            feed.category === 'Yağlı Yem' ? 'bg-yellow-100 text-yellow-700' :
-                            feed.category === 'Hayvansal Yem' ? 'bg-rose-100 text-rose-700' :
+                          ${feed.category === 'Kesif' ? 'bg-blue-100 text-blue-700' :
+                            feed.category === 'Kaba' ? 'bg-amber-100 text-amber-700' :
+                            feed.category === 'Katkı' ? 'bg-purple-100 text-purple-700' :
+                            feed.category === 'Karma' ? 'bg-green-100 text-green-700' :
                             'bg-slate-100 text-slate-700'
                           }`}>
                           {feed.category}

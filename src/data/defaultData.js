@@ -1,8 +1,7 @@
 // Embedded feed database from Excel (yem_veritabani.xlsx)
-// 285 feed ingredients with Turkish names, types, and nutritional values
+// Columns: Yem Adı, Tip, Ham Protein (%), ME (MJ/kg), Fiyat (TL)
 import embeddedFeeds from '../data/embeddedFeeds.json';
 
-// Default feed ingredients library - now using embedded database
 export const defaultFeeds = embeddedFeeds;
 
 // Production stage presets for Beef Cattle (Besi Sığırı)

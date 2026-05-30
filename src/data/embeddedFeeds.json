@@ -5,9 +5,7 @@
     "category": "Kesif",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 2,
@@ -15,9 +13,7 @@
     "category": "Kesif",
     "crudeProtein": 8.6,
     "metabolizableEnergy": 13.6,
-    "costPerKg": 8.75,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.75
   },
   {
     "id": 3,
@@ -25,9 +21,7 @@
     "category": "Kesif",
     "crudeProtein": 8.6,
     "metabolizableEnergy": 13.4,
-    "costPerKg": 8.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.8
   },
   {
     "id": 4,
@@ -35,9 +29,7 @@
     "category": "Kesif",
     "crudeProtein": 8.8,
     "metabolizableEnergy": 13.8,
-    "costPerKg": 9.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.5
   },
   {
     "id": 5,
@@ -45,9 +37,7 @@
     "category": "Kesif",
     "crudeProtein": 8.8,
     "metabolizableEnergy": 14,
-    "costPerKg": 9.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.8
   },
   {
     "id": 6,
@@ -55,9 +45,7 @@
     "category": "Kesif",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 8.6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.6
   },
   {
     "id": 7,
@@ -65,9 +53,7 @@
     "category": "Kesif",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 8,
@@ -75,9 +61,7 @@
     "category": "Kesif",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 9,
@@ -85,9 +69,7 @@
     "category": "Kaba",
     "crudeProtein": 4.5,
     "metabolizableEnergy": 6.5,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 10,
@@ -95,9 +77,7 @@
     "category": "Kaba",
     "crudeProtein": 3,
     "metabolizableEnergy": 5.5,
-    "costPerKg": 2.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.2
   },
   {
     "id": 11,
@@ -105,9 +85,7 @@
     "category": "Kesif",
     "crudeProtein": 10,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 12,
@@ -115,9 +93,7 @@
     "category": "Kesif",
     "crudeProtein": 14,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 10,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10
   },
   {
     "id": 13,
@@ -125,9 +101,7 @@
     "category": "Kesif",
     "crudeProtein": 20,
     "metabolizableEnergy": 11,
-    "costPerKg": 9.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.5
   },
   {
     "id": 14,
@@ -135,9 +109,7 @@
     "category": "Kesif",
     "crudeProtein": 24,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 10.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.5
   },
   {
     "id": 15,
@@ -145,9 +117,7 @@
     "category": "Kesif",
     "crudeProtein": 60,
     "metabolizableEnergy": 14.5,
-    "costPerKg": 18,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 18
   },
   {
     "id": 16,
@@ -155,9 +125,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36,
-    "costPerKg": 35,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 35
   },
   {
     "id": 17,
@@ -165,9 +133,7 @@
     "category": "Kesif",
     "crudeProtein": 28,
     "metabolizableEnergy": 12,
-    "costPerKg": 11,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11
   },
   {
     "id": 18,
@@ -175,9 +141,7 @@
     "category": "Kesif",
     "crudeProtein": 27,
     "metabolizableEnergy": 13,
-    "costPerKg": 11.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11.5
   },
   {
     "id": 19,
@@ -185,9 +149,7 @@
     "category": "Kesif",
     "crudeProtein": 11,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 7.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.8
   },
   {
     "id": 20,
@@ -195,9 +157,7 @@
     "category": "Kesif",
     "crudeProtein": 11.2,
     "metabolizableEnergy": 12.6,
-    "costPerKg": 8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8
   },
   {
     "id": 21,
@@ -205,9 +165,7 @@
     "category": "Kesif",
     "crudeProtein": 11.2,
     "metabolizableEnergy": 12.4,
-    "costPerKg": 8.1,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.1
   },
   {
     "id": 22,
@@ -215,9 +173,7 @@
     "category": "Kesif",
     "crudeProtein": 11.4,
     "metabolizableEnergy": 12.8,
-    "costPerKg": 8.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.8
   },
   {
     "id": 23,
@@ -225,9 +181,7 @@
     "category": "Kesif",
     "crudeProtein": 11,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 7.9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.9
   },
   {
     "id": 24,
@@ -235,9 +189,7 @@
     "category": "Kesif",
     "crudeProtein": 12,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 25,
@@ -245,9 +197,7 @@
     "category": "Kesif",
     "crudeProtein": 24,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 26,
@@ -255,9 +205,7 @@
     "category": "Kesif",
     "crudeProtein": 24,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 2.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.8
   },
   {
     "id": 27,
@@ -265,9 +213,7 @@
     "category": "Kesif",
     "crudeProtein": 25,
     "metabolizableEnergy": 11,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 28,
@@ -275,9 +221,7 @@
     "category": "Kesif",
     "crudeProtein": 12.5,
     "metabolizableEnergy": 13,
-    "costPerKg": 8.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.2
   },
   {
     "id": 29,
@@ -285,9 +229,7 @@
     "category": "Kesif",
     "crudeProtein": 12,
     "metabolizableEnergy": 12.8,
-    "costPerKg": 8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8
   },
   {
     "id": 30,
@@ -295,9 +237,7 @@
     "category": "Kesif",
     "crudeProtein": 12.5,
     "metabolizableEnergy": 12.9,
-    "costPerKg": 8.4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.4
   },
   {
     "id": 31,
@@ -305,9 +245,7 @@
     "category": "Kesif",
     "crudeProtein": 12.8,
     "metabolizableEnergy": 13.2,
-    "costPerKg": 9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9
   },
   {
     "id": 32,
@@ -315,9 +253,7 @@
     "category": "Kesif",
     "crudeProtein": 15.5,
     "metabolizableEnergy": 9.8,
-    "costPerKg": 6.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.8
   },
   {
     "id": 33,
@@ -325,9 +261,7 @@
     "category": "Kesif",
     "crudeProtein": 14.5,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 34,
@@ -335,9 +269,7 @@
     "category": "Kesif",
     "crudeProtein": 14,
     "metabolizableEnergy": 10.2,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 35,
@@ -345,9 +277,7 @@
     "category": "Kesif",
     "crudeProtein": 13,
     "metabolizableEnergy": 11,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 36,
@@ -355,9 +285,7 @@
     "category": "Kesif",
     "crudeProtein": 25,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 14,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 14
   },
   {
     "id": 37,
@@ -365,9 +293,7 @@
     "category": "Kesif",
     "crudeProtein": 24,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 10.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.8
   },
   {
     "id": 38,
@@ -375,9 +301,7 @@
     "category": "Kesif",
     "crudeProtein": 10.5,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 39,
@@ -385,9 +309,7 @@
     "category": "Kesif",
     "crudeProtein": 10.8,
     "metabolizableEnergy": 11.6,
-    "costPerKg": 7.7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.7
   },
   {
     "id": 40,
@@ -395,9 +317,7 @@
     "category": "Kesif",
     "crudeProtein": 14,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 12,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 12
   },
   {
     "id": 41,
@@ -405,9 +325,7 @@
     "category": "Kesif",
     "crudeProtein": 16,
     "metabolizableEnergy": 10,
-    "costPerKg": 8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8
   },
   {
     "id": 42,
@@ -415,9 +333,7 @@
     "category": "Kaba",
     "crudeProtein": 3.5,
     "metabolizableEnergy": 5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 43,
@@ -425,9 +341,7 @@
     "category": "Kesif",
     "crudeProtein": 11.5,
     "metabolizableEnergy": 12.8,
-    "costPerKg": 7.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.2
   },
   {
     "id": 44,
@@ -435,9 +349,7 @@
     "category": "Kesif",
     "crudeProtein": 11.5,
     "metabolizableEnergy": 12.6,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 45,
@@ -445,9 +357,7 @@
     "category": "Kesif",
     "crudeProtein": 15,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 46,
@@ -455,9 +365,7 @@
     "category": "Kesif",
     "crudeProtein": 12,
     "metabolizableEnergy": 12.7,
-    "costPerKg": 7.6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.6
   },
   {
     "id": 47,
@@ -465,9 +373,7 @@
     "category": "Kesif",
     "crudeProtein": 12,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 7.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.8
   },
   {
     "id": 48,
@@ -475,9 +381,7 @@
     "category": "Kesif",
     "crudeProtein": 10,
     "metabolizableEnergy": 13.2,
-    "costPerKg": 7.9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.9
   },
   {
     "id": 49,
@@ -485,9 +389,7 @@
     "category": "Kesif",
     "crudeProtein": 10.2,
     "metabolizableEnergy": 13,
-    "costPerKg": 8.1,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.1
   },
   {
     "id": 50,
@@ -495,9 +397,7 @@
     "category": "Kesif",
     "crudeProtein": 11,
     "metabolizableEnergy": 12,
-    "costPerKg": 8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8
   },
   {
     "id": 51,
@@ -505,9 +405,7 @@
     "category": "Kesif",
     "crudeProtein": 8,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 52,
@@ -515,9 +413,7 @@
     "category": "Kesif",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9
   },
   {
     "id": 53,
@@ -525,9 +421,7 @@
     "category": "Kesif",
     "crudeProtein": 14,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 54,
@@ -535,9 +429,7 @@
     "category": "Kesif",
     "crudeProtein": 15,
     "metabolizableEnergy": 9,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 55,
@@ -545,9 +437,7 @@
     "category": "Kaba",
     "crudeProtein": 3,
     "metabolizableEnergy": 4,
-    "costPerKg": 1.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.5
   },
   {
     "id": 56,
@@ -555,9 +445,7 @@
     "category": "Kesif",
     "crudeProtein": 38,
     "metabolizableEnergy": 14,
-    "costPerKg": 15,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 15
   },
   {
     "id": 57,
@@ -565,9 +453,7 @@
     "category": "Kesif",
     "crudeProtein": 38,
     "metabolizableEnergy": 14.5,
-    "costPerKg": 16.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 16.5
   },
   {
     "id": 58,
@@ -575,9 +461,7 @@
     "category": "Kesif",
     "crudeProtein": 37,
     "metabolizableEnergy": 14.8,
-    "costPerKg": 17,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 17
   },
   {
     "id": 59,
@@ -585,9 +469,7 @@
     "category": "Kesif",
     "crudeProtein": 48,
     "metabolizableEnergy": 12.8,
-    "costPerKg": 16.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 16.5
   },
   {
     "id": 60,
@@ -595,9 +477,7 @@
     "category": "Kesif",
     "crudeProtein": 44,
     "metabolizableEnergy": 12.2,
-    "costPerKg": 15.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 15.8
   },
   {
     "id": 61,
@@ -605,9 +485,7 @@
     "category": "Kesif",
     "crudeProtein": 40,
     "metabolizableEnergy": 11.8,
-    "costPerKg": 14.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 14.5
   },
   {
     "id": 62,
@@ -615,9 +493,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 63,
@@ -625,9 +501,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36.5,
-    "costPerKg": 33,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 33
   },
   {
     "id": 64,
@@ -635,9 +509,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 35,
-    "costPerKg": 28,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 28
   },
   {
     "id": 65,
@@ -645,9 +517,7 @@
     "category": "Kesif",
     "crudeProtein": 16,
     "metabolizableEnergy": 15,
-    "costPerKg": 12,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 12
   },
   {
     "id": 66,
@@ -655,9 +525,7 @@
     "category": "Kesif",
     "crudeProtein": 36,
     "metabolizableEnergy": 9.8,
-    "costPerKg": 9.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.2
   },
   {
     "id": 67,
@@ -665,9 +533,7 @@
     "category": "Kesif",
     "crudeProtein": 32,
     "metabolizableEnergy": 9,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 68,
@@ -675,9 +541,7 @@
     "category": "Kesif",
     "crudeProtein": 28,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 7.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.8
   },
   {
     "id": 69,
@@ -685,9 +549,7 @@
     "category": "Kesif",
     "crudeProtein": 24,
     "metabolizableEnergy": 7.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 70,
@@ -695,9 +557,7 @@
     "category": "Kaba",
     "crudeProtein": 5,
     "metabolizableEnergy": 5,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 71,
@@ -705,9 +565,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36.5,
-    "costPerKg": 34,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 34
   },
   {
     "id": 72,
@@ -715,9 +573,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 35,
-    "costPerKg": 29,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 29
   },
   {
     "id": 73,
@@ -725,9 +581,7 @@
     "category": "Kesif",
     "crudeProtein": 23,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 10.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.5
   },
   {
     "id": 74,
@@ -735,9 +589,7 @@
     "category": "Kesif",
     "crudeProtein": 28,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 8.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.8
   },
   {
     "id": 75,
@@ -745,9 +597,7 @@
     "category": "Kesif",
     "crudeProtein": 32,
     "metabolizableEnergy": 11,
-    "costPerKg": 9.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.5
   },
   {
     "id": 76,
@@ -755,9 +605,7 @@
     "category": "Kesif",
     "crudeProtein": 40,
     "metabolizableEnergy": 12,
-    "costPerKg": 11.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11.5
   },
   {
     "id": 77,
@@ -765,9 +613,7 @@
     "category": "Kaba",
     "crudeProtein": 4,
     "metabolizableEnergy": 6,
-    "costPerKg": 3.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.5
   },
   {
     "id": 78,
@@ -775,9 +621,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36,
-    "costPerKg": 32,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 32
   },
   {
     "id": 79,
@@ -785,9 +629,7 @@
     "category": "Kesif",
     "crudeProtein": 22,
     "metabolizableEnergy": 16,
-    "costPerKg": 14,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 14
   },
   {
     "id": 80,
@@ -795,9 +637,7 @@
     "category": "Kesif",
     "crudeProtein": 35,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 10.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.2
   },
   {
     "id": 81,
@@ -805,9 +645,7 @@
     "category": "Kesif",
     "crudeProtein": 38,
     "metabolizableEnergy": 11.8,
-    "costPerKg": 10.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.8
   },
   {
     "id": 82,
@@ -815,9 +653,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36.5,
-    "costPerKg": 35,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 35
   },
   {
     "id": 83,
@@ -825,9 +661,7 @@
     "category": "Kesif",
     "crudeProtein": 26,
     "metabolizableEnergy": 17,
-    "costPerKg": 20,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 20
   },
   {
     "id": 84,
@@ -835,9 +669,7 @@
     "category": "Kesif",
     "crudeProtein": 45,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 14,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 14
   },
   {
     "id": 85,
@@ -845,9 +677,7 @@
     "category": "Kesif",
     "crudeProtein": 50,
     "metabolizableEnergy": 13,
-    "costPerKg": 15.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 15.5
   },
   {
     "id": 86,
@@ -855,9 +685,7 @@
     "category": "Kaba",
     "crudeProtein": 7,
     "metabolizableEnergy": 5.5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 87,
@@ -865,9 +693,7 @@
     "category": "Kesif",
     "crudeProtein": 38,
     "metabolizableEnergy": 11.8,
-    "costPerKg": 11,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11
   },
   {
     "id": 88,
@@ -875,9 +701,7 @@
     "category": "Kesif",
     "crudeProtein": 10,
     "metabolizableEnergy": 9,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4
   },
   {
     "id": 89,
@@ -885,9 +709,7 @@
     "category": "Kaba",
     "crudeProtein": 2,
     "metabolizableEnergy": 4,
-    "costPerKg": 1.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.5
   },
   {
     "id": 90,
@@ -895,9 +717,7 @@
     "category": "Kesif",
     "crudeProtein": 22,
     "metabolizableEnergy": 15.5,
-    "costPerKg": 18,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 18
   },
   {
     "id": 91,
@@ -905,9 +725,7 @@
     "category": "Kesif",
     "crudeProtein": 34,
     "metabolizableEnergy": 12,
-    "costPerKg": 12.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 12.5
   },
   {
     "id": 92,
@@ -915,9 +733,7 @@
     "category": "Kesif",
     "crudeProtein": 40,
     "metabolizableEnergy": 11,
-    "costPerKg": 10,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10
   },
   {
     "id": 93,
@@ -925,9 +741,7 @@
     "category": "Kesif",
     "crudeProtein": 20,
     "metabolizableEnergy": 7,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 94,
@@ -935,9 +749,7 @@
     "category": "Kesif",
     "crudeProtein": 35,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 11,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11
   },
   {
     "id": 95,
@@ -945,9 +757,7 @@
     "category": "Kesif",
     "crudeProtein": 42,
     "metabolizableEnergy": 12,
-    "costPerKg": 13,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 13
   },
   {
     "id": 96,
@@ -955,9 +765,7 @@
     "category": "Kesif",
     "crudeProtein": 32,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 9.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.5
   },
   {
     "id": 97,
@@ -965,9 +773,7 @@
     "category": "Kesif",
     "crudeProtein": 21,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 10,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10
   },
   {
     "id": 98,
@@ -975,9 +781,7 @@
     "category": "Kesif",
     "crudeProtein": 16,
     "metabolizableEnergy": 11,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 99,
@@ -985,9 +789,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36,
-    "costPerKg": 30,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 30
   },
   {
     "id": 100,
@@ -995,9 +797,7 @@
     "category": "Kaba",
     "crudeProtein": 4,
     "metabolizableEnergy": 5,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 101,
@@ -1005,9 +805,7 @@
     "category": "Kaba",
     "crudeProtein": 3,
     "metabolizableEnergy": 4.5,
-    "costPerKg": 1.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.8
   },
   {
     "id": 102,
@@ -1015,9 +813,7 @@
     "category": "Kaba",
     "crudeProtein": 20,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 103,
@@ -1025,9 +821,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 9,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 104,
@@ -1035,9 +829,7 @@
     "category": "Kaba",
     "crudeProtein": 17,
     "metabolizableEnergy": 8.9,
-    "costPerKg": 6.9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.9
   },
   {
     "id": 105,
@@ -1045,9 +837,7 @@
     "category": "Kaba",
     "crudeProtein": 16,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 6.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.8
   },
   {
     "id": 106,
@@ -1055,9 +845,7 @@
     "category": "Kaba",
     "crudeProtein": 14,
     "metabolizableEnergy": 8.2,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 107,
@@ -1065,9 +853,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 7.5,
-    "costPerKg": 5.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.5
   },
   {
     "id": 108,
@@ -1075,9 +861,7 @@
     "category": "Kaba",
     "crudeProtein": 15,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 109,
@@ -1085,9 +869,7 @@
     "category": "Kaba",
     "crudeProtein": 16.5,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 6.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.8
   },
   {
     "id": 110,
@@ -1095,9 +877,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 9,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 111,
@@ -1105,9 +885,7 @@
     "category": "Kaba",
     "crudeProtein": 19,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 7.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.2
   },
   {
     "id": 112,
@@ -1115,9 +893,7 @@
     "category": "Kaba",
     "crudeProtein": 17.5,
     "metabolizableEnergy": 9,
-    "costPerKg": 6.9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.9
   },
   {
     "id": 113,
@@ -1125,9 +901,7 @@
     "category": "Kaba",
     "crudeProtein": 16,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 114,
@@ -1135,9 +909,7 @@
     "category": "Kaba",
     "crudeProtein": 17,
     "metabolizableEnergy": 8.9,
-    "costPerKg": 8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8
   },
   {
     "id": 115,
@@ -1145,9 +917,7 @@
     "category": "Kaba",
     "crudeProtein": 22,
     "metabolizableEnergy": 10,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 116,
@@ -1155,9 +925,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 117,
@@ -1165,9 +933,7 @@
     "category": "Kaba",
     "crudeProtein": 16,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 6.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.8
   },
   {
     "id": 118,
@@ -1175,9 +941,7 @@
     "category": "Kaba",
     "crudeProtein": 15,
     "metabolizableEnergy": 9,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 119,
@@ -1185,9 +949,7 @@
     "category": "Kaba",
     "crudeProtein": 13,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 5.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.5
   },
   {
     "id": 120,
@@ -1195,9 +957,7 @@
     "category": "Kaba",
     "crudeProtein": 16,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 2.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.2
   },
   {
     "id": 121,
@@ -1205,9 +965,7 @@
     "category": "Kaba",
     "crudeProtein": 15,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 122,
@@ -1215,9 +973,7 @@
     "category": "Kaba",
     "crudeProtein": 14,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 6.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.2
   },
   {
     "id": 123,
@@ -1225,9 +981,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 8,
-    "costPerKg": 5.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.5
   },
   {
     "id": 124,
@@ -1235,9 +989,7 @@
     "category": "Kaba",
     "crudeProtein": 16,
     "metabolizableEnergy": 9,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 125,
@@ -1245,9 +997,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 126,
@@ -1255,9 +1005,7 @@
     "category": "Kaba",
     "crudeProtein": 20,
     "metabolizableEnergy": 10,
-    "costPerKg": 2.4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.4
   },
   {
     "id": 127,
@@ -1265,9 +1013,7 @@
     "category": "Kaba",
     "crudeProtein": 16,
     "metabolizableEnergy": 9,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 128,
@@ -1275,9 +1021,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 2.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.2
   },
   {
     "id": 129,
@@ -1285,9 +1029,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 130,
@@ -1295,9 +1037,7 @@
     "category": "Kaba",
     "crudeProtein": 14,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 131,
@@ -1305,9 +1045,7 @@
     "category": "Kaba",
     "crudeProtein": 11,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 5.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.5
   },
   {
     "id": 132,
@@ -1315,9 +1053,7 @@
     "category": "Kaba",
     "crudeProtein": 10,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 133,
@@ -1325,9 +1061,7 @@
     "category": "Kaba",
     "crudeProtein": 11.5,
     "metabolizableEnergy": 8.6,
-    "costPerKg": 5.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.8
   },
   {
     "id": 134,
@@ -1335,9 +1069,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 135,
@@ -1345,9 +1077,7 @@
     "category": "Kaba",
     "crudeProtein": 10,
     "metabolizableEnergy": 8,
-    "costPerKg": 5.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.5
   },
   {
     "id": 136,
@@ -1355,9 +1085,7 @@
     "category": "Kaba",
     "crudeProtein": 8,
     "metabolizableEnergy": 7.5,
-    "costPerKg": 4.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4.8
   },
   {
     "id": 137,
@@ -1365,9 +1093,7 @@
     "category": "Kaba",
     "crudeProtein": 11,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 5.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 5.5
   },
   {
     "id": 138,
@@ -1375,9 +1101,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 1.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.5
   },
   {
     "id": 139,
@@ -1385,9 +1109,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 1.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.2
   },
   {
     "id": 140,
@@ -1395,9 +1117,7 @@
     "category": "Kaba",
     "crudeProtein": 15,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 1.4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.4
   },
   {
     "id": 141,
@@ -1405,9 +1125,7 @@
     "category": "Kaba",
     "crudeProtein": 3,
     "metabolizableEnergy": 5.2,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3
   },
   {
     "id": 142,
@@ -1415,9 +1133,7 @@
     "category": "Kaba",
     "crudeProtein": 3,
     "metabolizableEnergy": 5.2,
-    "costPerKg": 3.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.2
   },
   {
     "id": 143,
@@ -1425,9 +1141,7 @@
     "category": "Kaba",
     "crudeProtein": 8,
     "metabolizableEnergy": 5.5,
-    "costPerKg": 3.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.8
   },
   {
     "id": 144,
@@ -1435,9 +1149,7 @@
     "category": "Kaba",
     "crudeProtein": 9,
     "metabolizableEnergy": 6,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4
   },
   {
     "id": 145,
@@ -1445,9 +1157,7 @@
     "category": "Kaba",
     "crudeProtein": 3.5,
     "metabolizableEnergy": 5.5,
-    "costPerKg": 3.4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.4
   },
   {
     "id": 146,
@@ -1455,9 +1165,7 @@
     "category": "Kaba",
     "crudeProtein": 4,
     "metabolizableEnergy": 5.8,
-    "costPerKg": 3.6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.6
   },
   {
     "id": 147,
@@ -1465,9 +1173,7 @@
     "category": "Kaba",
     "crudeProtein": 3,
     "metabolizableEnergy": 5,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3
   },
   {
     "id": 148,
@@ -1475,9 +1181,7 @@
     "category": "Kaba",
     "crudeProtein": 3.5,
     "metabolizableEnergy": 5.4,
-    "costPerKg": 3.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.2
   },
   {
     "id": 149,
@@ -1485,9 +1189,7 @@
     "category": "Kaba",
     "crudeProtein": 6.5,
     "metabolizableEnergy": 6.5,
-    "costPerKg": 4.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4.5
   },
   {
     "id": 150,
@@ -1495,9 +1197,7 @@
     "category": "Kaba",
     "crudeProtein": 5.5,
     "metabolizableEnergy": 6,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4
   },
   {
     "id": 151,
@@ -1505,9 +1205,7 @@
     "category": "Kaba",
     "crudeProtein": 5,
     "metabolizableEnergy": 5.8,
-    "costPerKg": 3.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.8
   },
   {
     "id": 152,
@@ -1515,9 +1213,7 @@
     "category": "Kaba",
     "crudeProtein": 6,
     "metabolizableEnergy": 6.2,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4
   },
   {
     "id": 153,
@@ -1525,9 +1221,7 @@
     "category": "Kaba",
     "crudeProtein": 5.5,
     "metabolizableEnergy": 6,
-    "costPerKg": 3.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.8
   },
   {
     "id": 154,
@@ -1535,9 +1229,7 @@
     "category": "Kaba",
     "crudeProtein": 6.5,
     "metabolizableEnergy": 6.5,
-    "costPerKg": 4.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4.2
   },
   {
     "id": 155,
@@ -1545,9 +1237,7 @@
     "category": "Kaba",
     "crudeProtein": 5,
     "metabolizableEnergy": 6,
-    "costPerKg": 3.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.5
   },
   {
     "id": 156,
@@ -1555,9 +1245,7 @@
     "category": "Kaba",
     "crudeProtein": 7,
     "metabolizableEnergy": 6.5,
-    "costPerKg": 4.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4.5
   },
   {
     "id": 157,
@@ -1565,9 +1253,7 @@
     "category": "Kaba",
     "crudeProtein": 3.5,
     "metabolizableEnergy": 5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 158,
@@ -1575,9 +1261,7 @@
     "category": "Kaba",
     "crudeProtein": 4,
     "metabolizableEnergy": 5.2,
-    "costPerKg": 2.6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.6
   },
   {
     "id": 159,
@@ -1585,9 +1269,7 @@
     "category": "Kaba",
     "crudeProtein": 4,
     "metabolizableEnergy": 5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 160,
@@ -1595,9 +1277,7 @@
     "category": "Kaba",
     "crudeProtein": 8.2,
     "metabolizableEnergy": 10.2,
-    "costPerKg": 2.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.2
   },
   {
     "id": 161,
@@ -1605,9 +1285,7 @@
     "category": "Kaba",
     "crudeProtein": 8,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 162,
@@ -1615,9 +1293,7 @@
     "category": "Kaba",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 10.8,
-    "costPerKg": 2.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.8
   },
   {
     "id": 163,
@@ -1625,9 +1301,7 @@
     "category": "Kaba",
     "crudeProtein": 8.2,
     "metabolizableEnergy": 11,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3
   },
   {
     "id": 164,
@@ -1635,9 +1309,7 @@
     "category": "Kaba",
     "crudeProtein": 7,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 165,
@@ -1645,9 +1317,7 @@
     "category": "Kaba",
     "crudeProtein": 18,
     "metabolizableEnergy": 9,
-    "costPerKg": 3.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.5
   },
   {
     "id": 166,
@@ -1655,9 +1325,7 @@
     "category": "Kaba",
     "crudeProtein": 17.5,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 3.6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.6
   },
   {
     "id": 167,
@@ -1665,9 +1333,7 @@
     "category": "Kaba",
     "crudeProtein": 17,
     "metabolizableEnergy": 9.4,
-    "costPerKg": 3.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.8
   },
   {
     "id": 168,
@@ -1675,9 +1341,7 @@
     "category": "Kaba",
     "crudeProtein": 11,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3
   },
   {
     "id": 169,
@@ -1685,9 +1349,7 @@
     "category": "Kaba",
     "crudeProtein": 10.5,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 2.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.8
   },
   {
     "id": 170,
@@ -1695,9 +1357,7 @@
     "category": "Kaba",
     "crudeProtein": 11,
     "metabolizableEnergy": 9.4,
-    "costPerKg": 2.9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.9
   },
   {
     "id": 171,
@@ -1705,9 +1365,7 @@
     "category": "Kaba",
     "crudeProtein": 11.5,
     "metabolizableEnergy": 9.6,
-    "costPerKg": 3.1,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.1
   },
   {
     "id": 172,
@@ -1715,9 +1373,7 @@
     "category": "Kaba",
     "crudeProtein": 14,
     "metabolizableEnergy": 10,
-    "costPerKg": 3.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.2
   },
   {
     "id": 173,
@@ -1725,9 +1381,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 2.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.8
   },
   {
     "id": 174,
@@ -1735,9 +1389,7 @@
     "category": "Kaba",
     "crudeProtein": 7.5,
     "metabolizableEnergy": 9,
-    "costPerKg": 2.3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.3
   },
   {
     "id": 175,
@@ -1745,9 +1397,7 @@
     "category": "Kaba",
     "crudeProtein": 8,
     "metabolizableEnergy": 8.8,
-    "costPerKg": 2.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.2
   },
   {
     "id": 176,
@@ -1755,9 +1405,7 @@
     "category": "Kaba",
     "crudeProtein": 7,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 2.4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.4
   },
   {
     "id": 177,
@@ -1765,9 +1413,7 @@
     "category": "Kaba",
     "crudeProtein": 10,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 178,
@@ -1775,9 +1421,7 @@
     "category": "Kaba",
     "crudeProtein": 15,
     "metabolizableEnergy": 9,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3
   },
   {
     "id": 179,
@@ -1785,9 +1429,7 @@
     "category": "Kaba",
     "crudeProtein": 14,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 3.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.2
   },
   {
     "id": 180,
@@ -1795,9 +1437,7 @@
     "category": "Kaba",
     "crudeProtein": 13,
     "metabolizableEnergy": 9.2,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3
   },
   {
     "id": 181,
@@ -1805,9 +1445,7 @@
     "category": "Kaba",
     "crudeProtein": 11,
     "metabolizableEnergy": 8.5,
-    "costPerKg": 1.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.8
   },
   {
     "id": 182,
@@ -1815,9 +1453,7 @@
     "category": "Kaba",
     "crudeProtein": 6,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 183,
@@ -1825,9 +1461,7 @@
     "category": "Kaba",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 11.2,
-    "costPerKg": 1.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.2
   },
   {
     "id": 184,
@@ -1835,9 +1469,7 @@
     "category": "Kaba",
     "crudeProtein": 8.5,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 1.6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.6
   },
   {
     "id": 185,
@@ -1845,9 +1477,7 @@
     "category": "Kesif",
     "crudeProtein": 9,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 7.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.2
   },
   {
     "id": 186,
@@ -1855,9 +1485,7 @@
     "category": "Kesif",
     "crudeProtein": 9.5,
     "metabolizableEnergy": 11,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 187,
@@ -1865,9 +1493,7 @@
     "category": "Kesif",
     "crudeProtein": 9,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 7.4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.4
   },
   {
     "id": 188,
@@ -1875,9 +1501,7 @@
     "category": "Kesif",
     "crudeProtein": 4,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 189,
@@ -1885,9 +1509,7 @@
     "category": "Kesif",
     "crudeProtein": 3.5,
     "metabolizableEnergy": 12,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 190,
@@ -1895,9 +1517,7 @@
     "category": "Kaba",
     "crudeProtein": 6.5,
     "metabolizableEnergy": 11,
-    "costPerKg": 1.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.5
   },
   {
     "id": 191,
@@ -1905,9 +1525,7 @@
     "category": "Kesif",
     "crudeProtein": 7,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 192,
@@ -1915,9 +1533,7 @@
     "category": "Kaba",
     "crudeProtein": 5,
     "metabolizableEnergy": 9,
-    "costPerKg": 1.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.2
   },
   {
     "id": 193,
@@ -1925,9 +1541,7 @@
     "category": "Kaba",
     "crudeProtein": 6,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4
   },
   {
     "id": 194,
@@ -1935,9 +1549,7 @@
     "category": "Kaba",
     "crudeProtein": 20,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 1.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 1.8
   },
   {
     "id": 195,
@@ -1945,9 +1557,7 @@
     "category": "Kesif",
     "crudeProtein": 22,
     "metabolizableEnergy": 10,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 196,
@@ -1955,9 +1565,7 @@
     "category": "Kaba",
     "crudeProtein": 12,
     "metabolizableEnergy": 6.5,
-    "costPerKg": 3.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 3.5
   },
   {
     "id": 197,
@@ -1965,9 +1573,7 @@
     "category": "Kaba",
     "crudeProtein": 8,
     "metabolizableEnergy": 7.5,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 198,
@@ -1975,9 +1581,7 @@
     "category": "Kaba",
     "crudeProtein": 9,
     "metabolizableEnergy": 5.5,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2
   },
   {
     "id": 199,
@@ -1985,9 +1589,7 @@
     "category": "Kesif",
     "crudeProtein": 5,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8
   },
   {
     "id": 200,
@@ -1995,9 +1597,7 @@
     "category": "Kesif",
     "crudeProtein": 12,
     "metabolizableEnergy": 14,
-    "costPerKg": 7,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7
   },
   {
     "id": 201,
@@ -2005,9 +1605,7 @@
     "category": "Kesif",
     "crudeProtein": 8,
     "metabolizableEnergy": 15.5,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 202,
@@ -2015,9 +1613,7 @@
     "category": "Kesif",
     "crudeProtein": 13,
     "metabolizableEnergy": 14.5,
-    "costPerKg": 7.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 7.5
   },
   {
     "id": 203,
@@ -2025,9 +1621,7 @@
     "category": "Kesif",
     "crudeProtein": 6,
     "metabolizableEnergy": 16,
-    "costPerKg": 9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9
   },
   {
     "id": 204,
@@ -2035,9 +1629,7 @@
     "category": "Kesif",
     "crudeProtein": 2,
     "metabolizableEnergy": 15,
-    "costPerKg": 6.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6.5
   },
   {
     "id": 205,
@@ -2045,9 +1637,7 @@
     "category": "Kaba",
     "crudeProtein": 10,
     "metabolizableEnergy": 13,
-    "costPerKg": 2.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 2.5
   },
   {
     "id": 206,
@@ -2055,9 +1645,7 @@
     "category": "Kesif",
     "crudeProtein": 8,
     "metabolizableEnergy": 14.5,
-    "costPerKg": 6,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 6
   },
   {
     "id": 207,
@@ -2065,9 +1653,7 @@
     "category": "Kesif",
     "crudeProtein": 45,
     "metabolizableEnergy": 13,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 4
   },
   {
     "id": 208,
@@ -2075,9 +1661,7 @@
     "category": "Kesif",
     "crudeProtein": 46,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 15,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 15
   },
   {
     "id": 209,
@@ -2085,9 +1669,7 @@
     "category": "Kesif",
     "crudeProtein": 50,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 18,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 18
   },
   {
     "id": 210,
@@ -2095,9 +1677,7 @@
     "category": "Kesif",
     "crudeProtein": 60,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 22,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 22
   },
   {
     "id": 211,
@@ -2105,9 +1685,7 @@
     "category": "Kesif",
     "crudeProtein": 85,
     "metabolizableEnergy": 13,
-    "costPerKg": 30,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 30
   },
   {
     "id": 212,
@@ -2115,9 +1693,7 @@
     "category": "Kesif",
     "crudeProtein": 80,
     "metabolizableEnergy": 11,
-    "costPerKg": 15,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 15
   },
   {
     "id": 213,
@@ -2125,9 +1701,7 @@
     "category": "Kesif",
     "crudeProtein": 60,
     "metabolizableEnergy": 14.5,
-    "costPerKg": 45,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 45
   },
   {
     "id": 214,
@@ -2135,9 +1709,7 @@
     "category": "Kesif",
     "crudeProtein": 65,
     "metabolizableEnergy": 15,
-    "costPerKg": 50,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 50
   },
   {
     "id": 215,
@@ -2145,9 +1717,7 @@
     "category": "Kesif",
     "crudeProtein": 60,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 20,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 20
   },
   {
     "id": 216,
@@ -2155,9 +1725,7 @@
     "category": "Kesif",
     "crudeProtein": 13,
     "metabolizableEnergy": 14.5,
-    "costPerKg": 25,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 25
   },
   {
     "id": 217,
@@ -2165,9 +1733,7 @@
     "category": "Kesif",
     "crudeProtein": 11,
     "metabolizableEnergy": 13.5,
-    "costPerKg": 22,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 22
   },
   {
     "id": 218,
@@ -2175,9 +1741,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 37,
-    "costPerKg": 60,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 60
   },
   {
     "id": 219,
@@ -2185,9 +1749,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 36.5,
-    "costPerKg": 28,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 28
   },
   {
     "id": 220,
@@ -2195,9 +1757,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 37,
-    "costPerKg": 30,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 30
   },
   {
     "id": 221,
@@ -2205,9 +1765,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 33,
-    "costPerKg": 45,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 45
   },
   {
     "id": 222,
@@ -2215,289 +1773,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 38,
-    "costPerKg": 55,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 223,
-    "name": "Mermer Tozu (Kalsiyum Karbonat)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 2.2,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 224,
-    "name": "Kireç Taşı",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 2,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 225,
-    "name": "Dikalsiyum Fosfat (DCP)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 22,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 226,
-    "name": "Monokalsiyum Fosfat (MCP)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 25,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 227,
-    "name": "Deflorinize Fosfat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 20,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 228,
-    "name": "Yemlik İnce Tuz (Sodyum Klorür)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 3.5,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 229,
-    "name": "Kaya Tuzu (Kırık)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 3,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 230,
-    "name": "Sodyum Bikarbonat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 12.5,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 231,
-    "name": "Magnezyum Oksit",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 18,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 232,
-    "name": "Magnezyum Sülfat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 15,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 233,
-    "name": "Potasyum Klorür",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 16,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 234,
-    "name": "Kalsiyum Sülfat (Alçıtaşı)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 5,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 235,
-    "name": "Kükürt (Çiçek Tozu)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 10,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 236,
-    "name": "Çinko Oksit",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 60,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 237,
-    "name": "Çinko Sülfat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 55,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 238,
-    "name": "Bakır Sülfat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 80,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 239,
-    "name": "Mangan Sülfat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 45,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 240,
-    "name": "Kobalt Sülfat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 150,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 241,
-    "name": "Sodyum Selenit",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 200,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 242,
-    "name": "Kalsiyum İyodat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 180,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 243,
-    "name": "Üre (%46 N - NPN)",
-    "category": "Katkı",
-    "crudeProtein": 287,
-    "metabolizableEnergy": 0,
-    "costPerKg": 14,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 244,
-    "name": "Amonyum Sülfat",
-    "category": "Katkı",
-    "crudeProtein": 133,
-    "metabolizableEnergy": 0,
-    "costPerKg": 12,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 245,
-    "name": "Biüret",
-    "category": "Katkı",
-    "crudeProtein": 250,
-    "metabolizableEnergy": 0,
-    "costPerKg": 20,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 246,
-    "name": "Klinoptilolit (Toksin Bağlayıcı)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 4.5,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 247,
-    "name": "Zeolit",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 4,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 248,
-    "name": "Bentonit",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 3.5,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 249,
-    "name": "Canlı Maya (Saccharomyces cerevisiae)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 120,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 250,
-    "name": "Maya Kültürü (İnaktif)",
-    "category": "Katkı",
-    "crudeProtein": 15,
-    "metabolizableEnergy": 0,
-    "costPerKg": 80,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 55
   },
   {
     "id": 251,
@@ -2505,9 +1781,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 23,
-    "costPerKg": 65,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 65
   },
   {
     "id": 252,
@@ -2515,29 +1789,7 @@
     "category": "Katkı",
     "crudeProtein": 0,
     "metabolizableEnergy": 18,
-    "costPerKg": 40,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 253,
-    "name": "Sodyum Propiyonat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 70,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 254,
-    "name": "Kalsiyum Propiyonat",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 65,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 40
   },
   {
     "id": 255,
@@ -2545,29 +1797,7 @@
     "category": "Kesif",
     "crudeProtein": 48,
     "metabolizableEnergy": 12.8,
-    "costPerKg": 25,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 256,
-    "name": "Metiyonin (Rumen Korumalı)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 150,
-    "dryMatter": 88,
-    "unit": "% DM"
-  },
-  {
-    "id": 257,
-    "name": "Lizin (Rumen Korumalı)",
-    "category": "Katkı",
-    "crudeProtein": 0,
-    "metabolizableEnergy": 0,
-    "costPerKg": 140,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 25
   },
   {
     "id": 258,
@@ -2575,9 +1805,7 @@
     "category": "Karma",
     "crudeProtein": 18,
     "metabolizableEnergy": 10.8,
-    "costPerKg": 9.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.5
   },
   {
     "id": 259,
@@ -2585,9 +1813,7 @@
     "category": "Karma",
     "crudeProtein": 19,
     "metabolizableEnergy": 11.2,
-    "costPerKg": 10,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10
   },
   {
     "id": 260,
@@ -2595,9 +1821,7 @@
     "category": "Karma",
     "crudeProtein": 21,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 10.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.8
   },
   {
     "id": 261,
@@ -2605,9 +1829,7 @@
     "category": "Karma",
     "crudeProtein": 13,
     "metabolizableEnergy": 9.5,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 262,
@@ -2615,9 +1837,7 @@
     "category": "Karma",
     "crudeProtein": 15,
     "metabolizableEnergy": 10.5,
-    "costPerKg": 9.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.5
   },
   {
     "id": 263,
@@ -2625,9 +1845,7 @@
     "category": "Karma",
     "crudeProtein": 15,
     "metabolizableEnergy": 10,
-    "costPerKg": 8.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.8
   },
   {
     "id": 264,
@@ -2635,9 +1853,7 @@
     "category": "Karma",
     "crudeProtein": 18,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 11.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11.5
   },
   {
     "id": 265,
@@ -2645,9 +1861,7 @@
     "category": "Karma",
     "crudeProtein": 16,
     "metabolizableEnergy": 11,
-    "costPerKg": 10.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.5
   },
   {
     "id": 266,
@@ -2655,9 +1869,7 @@
     "category": "Karma",
     "crudeProtein": 16,
     "metabolizableEnergy": 11,
-    "costPerKg": 9,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9
   },
   {
     "id": 267,
@@ -2665,9 +1877,7 @@
     "category": "Karma",
     "crudeProtein": 14,
     "metabolizableEnergy": 11.2,
-    "costPerKg": 8.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.8
   },
   {
     "id": 268,
@@ -2675,9 +1885,7 @@
     "category": "Karma",
     "crudeProtein": 12,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 8.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 8.5
   },
   {
     "id": 269,
@@ -2685,9 +1893,7 @@
     "category": "Karma",
     "crudeProtein": 16,
     "metabolizableEnergy": 11,
-    "costPerKg": 9.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 9.2
   },
   {
     "id": 270,
@@ -2695,9 +1901,7 @@
     "category": "Karma",
     "crudeProtein": 18,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 11,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11
   },
   {
     "id": 271,
@@ -2705,9 +1909,7 @@
     "category": "Karma",
     "crudeProtein": 16,
     "metabolizableEnergy": 11,
-    "costPerKg": 10,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10
   },
   {
     "id": 272,
@@ -2715,9 +1917,7 @@
     "category": "Karma",
     "crudeProtein": 23,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 13.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 13.5
   },
   {
     "id": 273,
@@ -2725,9 +1925,7 @@
     "category": "Karma",
     "crudeProtein": 21,
     "metabolizableEnergy": 13,
-    "costPerKg": 13,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 13
   },
   {
     "id": 274,
@@ -2735,9 +1933,7 @@
     "category": "Karma",
     "crudeProtein": 19,
     "metabolizableEnergy": 13.2,
-    "costPerKg": 12.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 12.5
   },
   {
     "id": 275,
@@ -2745,9 +1941,7 @@
     "category": "Karma",
     "crudeProtein": 18,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 11.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11.5
   },
   {
     "id": 276,
@@ -2755,9 +1949,7 @@
     "category": "Karma",
     "crudeProtein": 15,
     "metabolizableEnergy": 11,
-    "costPerKg": 10.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.5
   },
   {
     "id": 277,
@@ -2765,9 +1957,7 @@
     "category": "Karma",
     "crudeProtein": 18,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 11.2,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11.2
   },
   {
     "id": 278,
@@ -2775,9 +1965,7 @@
     "category": "Karma",
     "crudeProtein": 16,
     "metabolizableEnergy": 11.2,
-    "costPerKg": 10.8,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 10.8
   },
   {
     "id": 279,
@@ -2785,9 +1973,7 @@
     "category": "Karma",
     "crudeProtein": 28,
     "metabolizableEnergy": 12,
-    "costPerKg": 16,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 16
   },
   {
     "id": 280,
@@ -2795,9 +1981,7 @@
     "category": "Karma",
     "crudeProtein": 24,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 14.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 14.5
   },
   {
     "id": 281,
@@ -2805,9 +1989,7 @@
     "category": "Karma",
     "crudeProtein": 20,
     "metabolizableEnergy": 13,
-    "costPerKg": 13.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 13.5
   },
   {
     "id": 282,
@@ -2815,9 +1997,7 @@
     "category": "Karma",
     "crudeProtein": 24,
     "metabolizableEnergy": 12,
-    "costPerKg": 15,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 15
   },
   {
     "id": 283,
@@ -2825,9 +2005,7 @@
     "category": "Karma",
     "crudeProtein": 20,
     "metabolizableEnergy": 11.5,
-    "costPerKg": 13.5,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 13.5
   },
   {
     "id": 284,
@@ -2835,9 +2013,7 @@
     "category": "Karma",
     "crudeProtein": 12,
     "metabolizableEnergy": 12.5,
-    "costPerKg": 14,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 14
   },
   {
     "id": 285,
@@ -2845,8 +2021,6 @@
     "category": "Karma",
     "crudeProtein": 10,
     "metabolizableEnergy": 11,
-    "costPerKg": 11,
-    "dryMatter": 88,
-    "unit": "% DM"
+    "costPerKg": 11
   }
 ]
