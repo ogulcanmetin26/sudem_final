@@ -52,27 +52,26 @@ const FeedTable = ({
         return;
       }
 
-      // Map Excel columns to feed properties (Turkish column names)
-      // Expected columns: Yem adı, Yem tipi, Ham protein, Metabolik enerji, Kg basına maliyet
+      // Map Excel columns to feed properties
+      // Expected columns from yem_veritabani.xlsx: Yem Adı, Tip, Ham Protein (%), ME (MJ/kg), Fiyat (TL)
       const mappedFeeds = jsonData.map((row, index) => {
-        // Try different column name variations for Turkish Excel files
-        const name = row['Yem adı'] || row['Yem Adı'] || row['yem adı'] || row['Adı'] || row['feed_name'] || `Yem ${index + 1}`;
-        const category = row['Yem tipi'] || row['Yem Tipi'] || row['yem tipi'] || row['Tipi'] || row['type'] || 'Kesif Yem';
-        const crudeProtein = parseFloat(row['Ham protein'] || row['Ham Protein'] || row['ham protein'] || row['protein'] || row['HP'] || 12);
-        const metabolizableEnergy = parseFloat(row['Metabolik enerji'] || row['Metabolik Enerji'] || row['metabolik enerji'] || row['enerji'] || row['ME'] || 2.5);
-        const costPerKg = parseFloat(row['Kg basına maliyet'] || row['Kg Basına Maliyet'] || row['kg basına maliyet'] || row['maliyet'] || row['cost'] || 0);
+        const name = row['Yem Adı'] || row['Yem adı'] || row['feed_name'] || `Yem ${index + 1}`;
+        const category = row['Tip'] || row['tip'] || row['Tipi'] || 'Diğer';
+        const crudeProtein = parseFloat(row['Ham Protein (%)'] || row['Ham protein (%)'] || row['HP'] || 0);
+        const metabolizableEnergy = parseFloat(row['ME (MJ/kg)'] || row['ME'] || row['Enerji'] || 0);
+        const costPerKg = parseFloat(row['Fiyat (TL)'] || row['Fiyat'] || row['Maliyet'] || 0);
 
         return {
           id: Date.now() + index,
           name: String(name),
           category: String(category),
-          dryMatter: 88, // Default value
-          metabolizableEnergy: isNaN(metabolizableEnergy) ? 2.5 : metabolizableEnergy,
-          crudeProtein: isNaN(crudeProtein) ? 12 : crudeProtein,
+          dryMatter: 88,
+          metabolizableEnergy: isNaN(metabolizableEnergy) ? 0 : metabolizableEnergy,
+          crudeProtein: isNaN(crudeProtein) ? 0 : crudeProtein,
           costPerKg: isNaN(costPerKg) ? 0 : costPerKg,
           unit: '% DM'
         };
-      }).filter(feed => feed.name && feed.name !== `Yem ${jsonData.length + 1}`);
+      }).filter(feed => feed.name && feed.metabolizableEnergy > 0);
 
       if (mappedFeeds.length === 0) {
         onImportError?.('Dosyada geçerli yem maddesi bulunamadı. Sütun isimlerini kontrol edin.');
