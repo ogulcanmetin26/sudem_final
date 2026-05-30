@@ -4,6 +4,7 @@ import TargetConfig from './TargetConfig';
 import FeedTable from './FeedTable';
 import RationCalculator from './RationCalculator';
 import ChartView from './ChartView';
+import SimplexOptimizer from './SimplexOptimizer';
 import { defaultFeeds } from '../data/defaultData';
 import { storage, getTargetsKey, getFeedsKey, getRationsKey } from '../utils/storage';
 
@@ -22,7 +23,7 @@ const AnimalTab = ({ animalType }) => {
 
     if (savedTargets) setTargets(savedTargets);
     if (savedFeeds) setFeeds(savedFeeds);
-    else setFeeds(defaultFeeds); // Use default feeds if nothing saved
+    else setFeeds(defaultFeeds);
     if (savedRations) setRations(savedRations);
   }, [animalType]);
 
@@ -50,12 +51,13 @@ const AnimalTab = ({ animalType }) => {
   // Calculate ration stats for charts
   const rationStats = useMemo(() => {
     if (rations.length === 0) {
-      return { totalEnergy: 0, totalProtein: 0, totalWeight: 0 };
+      return { totalEnergy: 0, totalProtein: 0, totalWeight: 0, totalCost: 0 };
     }
 
     let totalWeight = 0;
     let weightedEnergy = 0;
     let weightedProtein = 0;
+    let totalCost = 0;
 
     rations.forEach(ration => {
       const feed = feeds.find(f => f.id === ration.feedId);
@@ -63,56 +65,50 @@ const AnimalTab = ({ animalType }) => {
         totalWeight += ration.amount;
         weightedEnergy += feed.metabolizableEnergy * ration.amount;
         weightedProtein += feed.crudeProtein * ration.amount;
+        totalCost += (feed.costPerKg || 0) * ration.amount;
       }
     });
 
     return {
       totalEnergy: totalWeight > 0 ? weightedEnergy / totalWeight : 0,
       totalProtein: totalWeight > 0 ? weightedProtein / totalWeight : 0,
-      totalWeight
+      totalWeight,
+      totalCost
     };
   }, [rations, feeds]);
 
   // Export to Excel
   const handleExportExcel = useCallback(() => {
     import('xlsx').then(XLSX => {
-      // Prepare ration data
       const rationData = rations.map(ration => {
         const feed = feeds.find(f => f.id === ration.feedId);
         return {
-          'Yem Maddesi': feed?.name || 'Bilinmeyen',
-          'Kategori': feed?.category || 'Bilinmeyen',
+          'Yem Adı': feed?.name || 'Bilinmeyen',
+          'Yem Tipi': feed?.category || 'Bilinmeyen',
           'Miktar (kg)': ration.amount,
-          'Kuru Madde (%)': feed?.dryMatter || 0,
-          'ME (MJ/kg)': feed?.metabolizableEnergy || 0,
-          'Ham Protein (%)': feed?.crudeProtein || 0
+          'Ham Protein (%)': feed?.crudeProtein || 0,
+          'Metabolik Enerji (MJ/kg)': feed?.metabolizableEnergy || 0,
+          'Kg Başına Maliyet (TL)': feed?.costPerKg || 0
         };
       });
 
-      // Add summary row
       rationData.push({
-        'Yem Maddesi': 'TOPLAM',
-        'Kategori': '',
+        'Yem Adı': 'TOPLAM',
+        'Yem Tipi': '',
         'Miktar (kg)': rationStats.totalWeight,
-        'Kuru Madde (%)': '',
-        'ME (MJ/kg)': rationStats.totalEnergy.toFixed(2),
-        'Ham Protein (%)': rationStats.totalProtein.toFixed(1)
+        'Ham Protein (%)': '',
+        'Metabolik Enerji (MJ/kg)': rationStats.totalEnergy.toFixed(2),
+        'Kg Başına Maliyet (TL)': rationStats.totalCost.toFixed(2)
       });
 
       const ws = XLSX.utils.json_to_sheet(rationData);
       const wb = XLSX.utils.book_new();
       XLSX.utils.book_append_sheet(wb, ws, 'Rasyon');
 
-      // Add targets sheet
-      const targetsData = [{
-        'Parametre': 'Enerji Hedefi (ME)',
-        'Değer': targets.energy,
-        'Birim': 'MJ/kg'
-      }, {
-        'Parametre': 'Protein Hedefi',
-        'Değer': targets.protein,
-        'Birim': '%'
-      }];
+      const targetsData = [
+        { 'Parametre': 'Enerji Hedefi (ME)', 'Değer': targets.energy, 'Birim': 'MJ/kg' },
+        { 'Parametre': 'Protein Hedefi', 'Değer': targets.protein, 'Birim': '%' }
+      ];
       const wsTargets = XLSX.utils.json_to_sheet(targetsData);
       XLSX.utils.book_append_sheet(wb, wsTargets, 'Hedefler');
 
@@ -124,8 +120,17 @@ const AnimalTab = ({ animalType }) => {
     });
   }, [rations, feeds, targets, rationStats, animalType, showNotification]);
 
-  // Export to PDF (simplified - using browser print)
+  // Export to PDF
   const handleExportPDF = useCallback(() => {
+    const getAnimalName = () => {
+      switch (animalType) {
+        case 'beef': return 'Besi Sığırı';
+        case 'dairy': return 'Süt Sığırı';
+        case 'poultry': return 'Kanatlılar';
+        default: return 'Hayvan';
+      }
+    };
+
     const printContent = `
       <html>
         <head>
@@ -141,30 +146,34 @@ const AnimalTab = ({ animalType }) => {
         </head>
         <body>
           <h1>Rasyon Raporu</h1>
-          <p><strong>Hayvan Türü:</strong> ${animalType === 'beef' ? 'Besi Sığırı' : animalType === 'dairy' ? 'Süt Sığırı' : 'Kanatlılar'}</p>
+          <p><strong>Hayvan Türü:</strong> ${getAnimalName()}</p>
           <h2>Hedefler</h2>
           <p>Enerji: ${targets.energy} MJ/kg | Protein: ${targets.protein}%</p>
           <h2>Rasyon İçeriği</h2>
           <table>
             <tr>
-              <th>Yem Maddesi</th>
+              <th>Yem Adı</th>
               <th>Miktar (kg)</th>
-              <th>ME (MJ/kg)</th>
-              <th>HP (%)</th>
+              <th>Metabolik Enerji (MJ/kg)</th>
+              <th>Ham Protein (%)</th>
+              <th>Maliyet (TL)</th>
             </tr>
             ${rations.map(ration => {
               const feed = feeds.find(f => f.id === ration.feedId);
+              const cost = (feed?.costPerKg || 0) * ration.amount;
               return `<tr>
                 <td>${feed?.name || '-'}</td>
                 <td>${ration.amount}</td>
-                <td>${feed?.metabolizableEnergy || '-'}</td>
-                <td>${feed?.crudeProtein || '-'}</td>
+                <td>${feed?.metabolizableEnergy?.toFixed(2) || '-'}</td>
+                <td>${feed?.crudeProtein?.toFixed(1) || '-'}</td>
+                <td>${cost.toFixed(2)}</td>
               </tr>`;
             }).join('')}
           </table>
           <div class="summary">
             <h3>Özet</h3>
             <p>Toplam Ağırlık: ${rationStats.totalWeight.toFixed(2)} kg</p>
+            <p>Toplam Maliyet: ${rationStats.totalCost.toFixed(2)} TL</p>
             <p>Toplam ME: ${rationStats.totalEnergy.toFixed(2)} MJ/kg</p>
             <p>Toplam HP: ${rationStats.totalProtein.toFixed(1)}%</p>
           </div>
@@ -179,14 +188,22 @@ const AnimalTab = ({ animalType }) => {
     showNotification('PDF yazdırma penceresi açıldı!');
   }, [rations, feeds, targets, rationStats, animalType, showNotification]);
 
-  const getAnimalTitle = () => {
-    switch (animalType) {
-      case 'beef': return 'Besi Sığırı (Beef Cattle)';
-      case 'dairy': return 'Süt Sığırı (Dairy Cattle)';
-      case 'poultry': return 'Kanatlılar (Poultry)';
-      default: return 'Hayvan';
-    }
-  };
+  // Handle adding optimized rations from Simplex
+  const handleAddOptimizedRations = useCallback((optimizedRation) => {
+    if (!optimizedRation) return;
+
+    const newRations = optimizedRation
+      .filter(item => item.amount > 0.001)
+      .map(item => ({
+        id: Date.now() + Math.random(),
+        feedId: item.feed.id,
+        amount: item.amount
+      }));
+
+    setRations(prev => [...prev, ...newRations]);
+    showNotification(`${newRations.length} yem maddesi rasyona eklendi!`);
+    setActiveSection('calculator');
+  }, [showNotification]);
 
   return (
     <div className="p-6 space-y-6">
@@ -203,10 +220,10 @@ const AnimalTab = ({ animalType }) => {
       )}
 
       {/* Tab Navigation */}
-      <div className="glass-card p-2 flex gap-2">
+      <div className="glass-card p-2 flex flex-wrap gap-2">
         <button
           onClick={() => setActiveSection('target')}
-          className={`flex-1 px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
+          className={`flex-1 min-w-[140px] px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
             ${activeSection === 'target' 
               ? 'bg-emerald-600 text-white shadow-lg' 
               : 'text-slate-600 hover:bg-slate-100'
@@ -216,7 +233,7 @@ const AnimalTab = ({ animalType }) => {
         </button>
         <button
           onClick={() => setActiveSection('feeds')}
-          className={`flex-1 px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
+          className={`flex-1 min-w-[140px] px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
             ${activeSection === 'feeds' 
               ? 'bg-emerald-600 text-white shadow-lg' 
               : 'text-slate-600 hover:bg-slate-100'
@@ -225,8 +242,18 @@ const AnimalTab = ({ animalType }) => {
           Yem Maddeleri
         </button>
         <button
+          onClick={() => setActiveSection('simplex')}
+          className={`flex-1 min-w-[140px] px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
+            ${activeSection === 'simplex' 
+              ? 'bg-violet-600 text-white shadow-lg' 
+              : 'text-slate-600 hover:bg-slate-100'
+            }`}
+        >
+          📊 Simplex Optimizasyon
+        </button>
+        <button
           onClick={() => setActiveSection('calculator')}
-          className={`flex-1 px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
+          className={`flex-1 min-w-[140px] px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
             ${activeSection === 'calculator' 
               ? 'bg-emerald-600 text-white shadow-lg' 
               : 'text-slate-600 hover:bg-slate-100'
@@ -236,7 +263,7 @@ const AnimalTab = ({ animalType }) => {
         </button>
         <button
           onClick={() => setActiveSection('chart')}
-          className={`flex-1 px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
+          className={`flex-1 min-w-[140px] px-4 py-3 rounded-xl font-medium text-sm transition-all duration-200
             ${activeSection === 'chart' 
               ? 'bg-emerald-600 text-white shadow-lg' 
               : 'text-slate-600 hover:bg-slate-100'
@@ -255,7 +282,6 @@ const AnimalTab = ({ animalType }) => {
             onTargetsChange={setTargets} 
           />
           
-          {/* Quick Export Options */}
           <div className="flex flex-wrap gap-4 justify-end">
             <button
               onClick={() => setActiveSection('chart')}
@@ -277,6 +303,14 @@ const AnimalTab = ({ animalType }) => {
         />
       )}
 
+      {activeSection === 'simplex' && (
+        <SimplexOptimizer
+          feeds={feeds}
+          targets={targets}
+          onSelectFeed={handleAddOptimizedRations}
+        />
+      )}
+
       {activeSection === 'calculator' && (
         <div className="space-y-6">
           <RationCalculator
@@ -286,7 +320,6 @@ const AnimalTab = ({ animalType }) => {
             onRationsChange={setRations}
           />
           
-          {/* Export Buttons */}
           <div className="flex flex-wrap gap-4 justify-end">
             <button
               onClick={handleExportExcel}
