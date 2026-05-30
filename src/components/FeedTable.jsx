@@ -52,25 +52,32 @@ const FeedTable = ({
         return;
       }
 
-      // Map Excel columns to feed properties
+      // Map Excel columns to feed properties (Turkish column names)
+      // Expected columns: Yem adı, Yem tipi, Ham protein, Metabolik enerji, Kg basına maliyet
       const mappedFeeds = jsonData.map((row, index) => {
-        // Try different column name variations
-        const name = row['Yem Maddesi'] || row['Ad'] || row['Name'] || row['İsim'] || `Yem ${index + 1}`;
-        const category = row['Kategori'] || row['Category'] || row['Grup'] || 'Kesif Yem';
-        const dryMatter = parseFloat(row['Kuru Madde'] || row['DM'] || row['Kuru Madde (%)'] || 85);
-        const metabolizableEnergy = parseFloat(row['Enerji'] || row['ME'] || row['Enerji (MJ/kg)'] || 2.5);
-        const crudeProtein = parseFloat(row['Ham Protein'] || row['HP'] || row['Protein'] || row['Ham Protein (%)'] || 12);
+        // Try different column name variations for Turkish Excel files
+        const name = row['Yem adı'] || row['Yem Adı'] || row['yem adı'] || row['Adı'] || row['feed_name'] || `Yem ${index + 1}`;
+        const category = row['Yem tipi'] || row['Yem Tipi'] || row['yem tipi'] || row['Tipi'] || row['type'] || 'Kesif Yem';
+        const crudeProtein = parseFloat(row['Ham protein'] || row['Ham Protein'] || row['ham protein'] || row['protein'] || row['HP'] || 12);
+        const metabolizableEnergy = parseFloat(row['Metabolik enerji'] || row['Metabolik Enerji'] || row['metabolik enerji'] || row['enerji'] || row['ME'] || 2.5);
+        const costPerKg = parseFloat(row['Kg basına maliyet'] || row['Kg Basına Maliyet'] || row['kg basına maliyet'] || row['maliyet'] || row['cost'] || 0);
 
         return {
           id: Date.now() + index,
           name: String(name),
           category: String(category),
-          dryMatter: isNaN(dryMatter) ? 85 : dryMatter,
+          dryMatter: 88, // Default value
           metabolizableEnergy: isNaN(metabolizableEnergy) ? 2.5 : metabolizableEnergy,
           crudeProtein: isNaN(crudeProtein) ? 12 : crudeProtein,
+          costPerKg: isNaN(costPerKg) ? 0 : costPerKg,
           unit: '% DM'
         };
-      });
+      }).filter(feed => feed.name && feed.name !== `Yem ${jsonData.length + 1}`);
+
+      if (mappedFeeds.length === 0) {
+        onImportError?.('Dosyada geçerli yem maddesi bulunamadı. Sütun isimlerini kontrol edin.');
+        return;
+      }
 
       const newFeeds = [...feeds, ...mappedFeeds];
       onFeedsChange(newFeeds);
@@ -141,6 +148,7 @@ const FeedTable = ({
       dryMatter: 88,
       metabolizableEnergy: 2.5,
       crudeProtein: 15,
+      costPerKg: 0,
       unit: '% DM'
     };
     onFeedsChange([...feeds, newFeed]);
@@ -159,7 +167,7 @@ const FeedTable = ({
             Yem Maddeleri Kütüphanesi
           </h3>
           <p className="text-slate-500 text-sm mt-1">
-            {feeds.length} yem maddesi kayıtlı
+            {feeds.length} yem maddesi kayıtlı • Excel sütunları: Yem adı, Yem tipi, Ham protein, Metabolik enerji, Kg basına maliyet
           </p>
         </div>
         <button 
@@ -281,8 +289,8 @@ const FeedTable = ({
                       <td className="py-3 px-4">
                         <input
                           type="number"
-                          value={editData.dryMatter}
-                          onChange={(e) => setEditData({ ...editData, dryMatter: parseFloat(e.target.value) || 0 })}
+                          value={editData.crudeProtein}
+                          onChange={(e) => setEditData({ ...editData, crudeProtein: parseFloat(e.target.value) || 0 })}
                           className="input-field text-sm py-1 w-24 text-right"
                           step="0.1"
                         />
@@ -299,10 +307,10 @@ const FeedTable = ({
                       <td className="py-3 px-4">
                         <input
                           type="number"
-                          value={editData.crudeProtein}
-                          onChange={(e) => setEditData({ ...editData, crudeProtein: parseFloat(e.target.value) || 0 })}
+                          value={editData.costPerKg || 0}
+                          onChange={(e) => setEditData({ ...editData, costPerKg: parseFloat(e.target.value) || 0 })}
                           className="input-field text-sm py-1 w-24 text-right"
-                          step="0.1"
+                          step="0.01"
                         />
                       </td>
                       <td className="py-3 px-4 text-right">
@@ -338,9 +346,9 @@ const FeedTable = ({
                           {feed.category}
                         </span>
                       </td>
-                      <td className="py-3 px-4 text-right font-mono text-slate-600">{feed.dryMatter.toFixed(1)}</td>
-                      <td className="py-3 px-4 text-right font-mono text-slate-600">{feed.metabolizableEnergy.toFixed(2)}</td>
-                      <td className="py-3 px-4 text-right font-mono text-slate-600">{feed.crudeProtein.toFixed(1)}</td>
+                      <td className="py-3 px-4 text-right font-mono text-slate-600">{feed.crudeProtein?.toFixed(1) || '0.0'}</td>
+                      <td className="py-3 px-4 text-right font-mono text-slate-600">{feed.metabolizableEnergy?.toFixed(2) || '0.00'}</td>
+                      <td className="py-3 px-4 text-right font-mono text-slate-600">{feed.costPerKg ? `${feed.costPerKg.toFixed(2)} TL` : '-'}</td>
                       <td className="py-3 px-4 text-right">
                         <div className="flex items-center justify-end gap-2">
                           <button

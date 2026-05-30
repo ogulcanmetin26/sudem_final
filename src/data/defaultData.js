@@ -8,6 +8,7 @@ export const defaultFeeds = [
     dryMatter: 35.0,
     metabolizableEnergy: 2.5,
     crudeProtein: 8.0,
+    costPerKg: 2.50,
     unit: '% DM'
   },
   {
@@ -17,6 +18,7 @@ export const defaultFeeds = [
     dryMatter: 88.0,
     metabolizableEnergy: 2.0,
     crudeProtein: 17.0,
+    costPerKg: 4.00,
     unit: '% DM'
   },
   {
@@ -26,6 +28,7 @@ export const defaultFeeds = [
     dryMatter: 90.0,
     metabolizableEnergy: 1.3,
     crudeProtein: 4.0,
+    costPerKg: 1.00,
     unit: '% DM'
   },
   {
@@ -35,6 +38,7 @@ export const defaultFeeds = [
     dryMatter: 85.0,
     metabolizableEnergy: 1.8,
     crudeProtein: 3.5,
+    costPerKg: 1.50,
     unit: '% DM'
   },
   
@@ -46,6 +50,7 @@ export const defaultFeeds = [
     dryMatter: 88.0,
     metabolizableEnergy: 3.1,
     crudeProtein: 11.5,
+    costPerKg: 5.00,
     unit: '% DM'
   },
   {
@@ -55,6 +60,7 @@ export const defaultFeeds = [
     dryMatter: 88.0,
     metabolizableEnergy: 3.2,
     crudeProtein: 12.0,
+    costPerKg: 4.50,
     unit: '% DM'
   },
   {
@@ -64,6 +70,7 @@ export const defaultFeeds = [
     dryMatter: 88.0,
     metabolizableEnergy: 3.4,
     crudeProtein: 8.5,
+    costPerKg: 4.00,
     unit: '% DM'
   },
   {
@@ -73,6 +80,7 @@ export const defaultFeeds = [
     dryMatter: 89.0,
     metabolizableEnergy: 3.2,
     crudeProtein: 44.0,
+    costPerKg: 12.00,
     unit: '% DM'
   },
   {
@@ -82,6 +90,7 @@ export const defaultFeeds = [
     dryMatter: 90.0,
     metabolizableEnergy: 2.6,
     crudeProtein: 33.0,
+    costPerKg: 8.00,
     unit: '% DM'
   },
   {
@@ -91,6 +100,7 @@ export const defaultFeeds = [
     dryMatter: 90.0,
     metabolizableEnergy: 3.0,
     crudeProtein: 27.0,
+    costPerKg: 7.00,
     unit: '% DM'
   },
   {
@@ -100,6 +110,7 @@ export const defaultFeeds = [
     dryMatter: 91.0,
     metabolizableEnergy: 2.7,
     crudeProtein: 38.0,
+    costPerKg: 9.00,
     unit: '% DM'
   },
   {
@@ -109,6 +120,7 @@ export const defaultFeeds = [
     dryMatter: 89.0,
     metabolizableEnergy: 2.5,
     crudeProtein: 15.0,
+    costPerKg: 3.50,
     unit: '% DM'
   },
   
@@ -120,6 +132,7 @@ export const defaultFeeds = [
     dryMatter: 99.5,
     metabolizableEnergy: 8.8,
     crudeProtein: 0,
+    costPerKg: 25.00,
     unit: '% DM'
   },
   {
@@ -129,6 +142,7 @@ export const defaultFeeds = [
     dryMatter: 92.0,
     metabolizableEnergy: 3.5,
     crudeProtein: 62.0,
+    costPerKg: 35.00,
     unit: '% DM'
   },
   {
@@ -138,6 +152,7 @@ export const defaultFeeds = [
     dryMatter: 96.0,
     metabolizableEnergy: 4.0,
     crudeProtein: 34.0,
+    costPerKg: 45.00,
     unit: '% DM'
   },
   {
@@ -147,6 +162,7 @@ export const defaultFeeds = [
     dryMatter: 91.0,
     metabolizableEnergy: 3.0,
     crudeProtein: 9.0,
+    costPerKg: 4.50,
     unit: '% DM'
   },
   {
@@ -156,6 +172,7 @@ export const defaultFeeds = [
     dryMatter: 90.0,
     metabolizableEnergy: 1.9,
     crudeProtein: 12.0,
+    costPerKg: 2.00,
     unit: '% DM'
   },
   {
@@ -165,6 +182,7 @@ export const defaultFeeds = [
     dryMatter: 92.0,
     metabolizableEnergy: 2.1,
     crudeProtein: 18.0,
+    costPerKg: 5.00,
     unit: '% DM'
   }
 ];
